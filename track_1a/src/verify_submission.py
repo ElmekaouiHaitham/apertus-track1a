@@ -34,8 +34,10 @@ def main():
     if pdf.read_bytes()!=(ROOT/"findings.pdf").read_bytes():raise ValueError("Report aliases disagree")
     reader=PdfReader(pdf)
     text=[page.extract_text() or "" for page in reader.pages]
-    refs=[i for i,t in enumerate(text) if t.lstrip().startswith("References")]
-    if len(refs)!=1 or refs[0]>6:raise ValueError("Report exceeds six content pages or references are not identifiable")
+    refs=[i for i,t in enumerate(text) if re.search(r"(?m)^References\s*$",t)]
+    if len(text)>6 or len(refs)!=1:raise ValueError("Report exceeds six total pages including references, or references are not identifiable")
+    ref_heading=re.search(r"(?m)^References\s*$",text[refs[0]])
+    shared_reference_page=bool(text[refs[0]][:ref_heading.start()].strip())
     full="\n".join(text)
     for phrase in ["White-box supplement","16/16","0/16","2/16","6/8","License","Reproducibility"]:
         if phrase not in full:raise ValueError("Integrated report is missing supported result/limit: "+phrase)
@@ -44,7 +46,9 @@ def main():
         source=ROOT/"docs/audit/upstream_20261015"/entry["local"]
         if hashlib.sha256(source.read_bytes()).hexdigest()!=entry["sha256"]:raise ValueError("Upstream reference changed: "+original)
     summary=dict(verified=True,issues=4,walkthroughs=conversations,organizer_schema_rules_unchanged=True,
-                 official_report_structure=True,report_content_pages=refs[0],report_reference_pages=len(text)-refs[0],
+                 official_report_structure=True,report_total_pages=len(text),
+                 report_content_pages=refs[0]+int(shared_reference_page),report_reference_pages=len(text)-refs[0],
+                 references_share_last_content_page=shared_reference_page,
                  report_sha256=hashlib.sha256(pdf.read_bytes()).hexdigest(),
                  historical_and_supplementary_sources_kept_distinct=True,
                  offline_replay="Frozen evidence and recorded measurements; no live inference or probe retraining")

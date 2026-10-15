@@ -1,7 +1,7 @@
 \documentclass[10pt,a4paper]{article}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[margin=18mm,top=18mm,bottom=18mm,columnsep=6mm]{geometry}
+\usepackage[margin=17mm,top=17mm,bottom=17mm,columnsep=6mm]{geometry}
 \usepackage{newtxtext,newtxmath,microtype,graphicx,booktabs,tabularx,array}
 \usepackage{enumitem,titlesec,hyperref,xurl,caption,multicol}
 \hypersetup{hidelinks,pdftitle={Equal Qualifications, Unequal Stories: Red-Teaming Stereotyping and Reasoning in Apertus v1.5 70B},pdfauthor={Haitham Elmekaoui}}
@@ -9,8 +9,9 @@
 \titleformat{\subsection}{\small\bfseries}{\thesubsection}{.55em}{}
 \titleformat{\subsubsection}{\small\itshape}{\thesubsubsection}{.55em}{}
 \setcounter{secnumdepth}{2}
-\titlespacing*{\section}{0pt}{9pt}{4pt}
-\titlespacing*{\subsection}{0pt}{7pt}{3pt}
+\titlespacing*{\section}{0pt}{7pt}{3pt}
+\titlespacing*{\subsection}{0pt}{5pt}{2pt}
+\titlespacing*{\subsubsection}{0pt}{5pt}{2pt}
 \raggedbottom
 \brokenpenalty=10000
 \clubpenalty=10000
@@ -43,7 +44,7 @@
 \begin{document}
 \maketitle
 \vspace{-13pt}
-\fontsize{9.5}{10.7}\selectfont
+\fontsize{9.5}{10.5}\selectfont
 \noindent\textbf{Problem, approach, result.} Apertus converts demographic cues into unsupported competence, trust, risk and belonging claims despite equal supplied qualifications. We combine 12,904 successful multilingual responses, separate content/grounding evaluation and a controlled public-70B white-box supplement. Four documented failure mechanisms include early internal gender-cue swaps changing 16/16 fresh childcare recommendations, while changing a readable probe axis changes 0/16.
 \par\smallskip\noindent\textbf{Track:} Apertus Readiness -- Track 1A. \textbf{Event:} Online. \textbf{Team:} Apertus Choice Audit -- Haitham Elmekaoui. \textbf{Demo:} executed \pathtext{notebooks/choice_audit.ipynb} and complete casebooks.
 \par\smallskip\noindent\textbf{Use of Apertus.} Red-teaming, inference and evaluation of hosted \pathtext{apertus-v1.5-70b} and pinned public 70B weights on two A100 80GB GPUs. No language-model fine-tuning; external linear gender readouts only. Clef supports evaluation; CPU replay needs no credentials or weights.
@@ -255,7 +256,7 @@ Baseline selects the woman in 16/16 fresh prompts; gender-only input reversal ch
 
 The better-qualified candidate remains selected in 16/16 cases under both patches. Full swaps change 2/16 teamwork and 6/8 same-gender tie choices (selective: 0/16 and 1/8), limiting specificity. Exact original English transfer changes 4/4 under full swaps, 0/4 under selective swaps. The run records 84 baseline, 144 scan and 216 confirmation/control/transfer generations, plus one hook-validation self patch. Greedy caps are 48 scan/96 other tokens: 92 scan and two confirmation explanations truncate, with all selected names retained. No new human B/R or stereotype-reduction score is asserted.
 
-Four fresh families, one equal-profile template, English explicit cues and a coarse validation map limit scope. Readability persists at late cue sites even when patching them no longer changes choices, consistent with relevant information having reached other positions. Full answer-state patches can transfer formed preferences; neither result identifies a unique decision layer, head, neuron or exclusive route [6]. Detailed methods, raw responses and complete casebooks are in \pathtext{supplementary/whitebox/NATURAL_PROTOCOL.md} and \pathtext{NATURAL_RESULTS.md} there. The earlier A/B pilot changed constrained choices but left original-format selections 16/16 female before/after; it remains separate and these test names are fresh.
+Four fresh families, one equal-profile template, English explicit cues and a coarse validation map limit scope. Readability persists at late cue sites even when patching them no longer changes choices, consistent with relevant information having reached other positions. Full answer-state patches can transfer formed preferences; neither result identifies a unique decision layer, head, neuron or exclusive route [5]. Detailed methods, raw responses and complete casebooks are in \pathtext{supplementary/whitebox/NATURAL_PROTOCOL.md} and \pathtext{NATURAL_RESULTS.md} there. The earlier A/B pilot changed constrained choices but left original-format selections 16/16 female before/after; it remains separate and these test names are fresh.
 
 \subsection{Evaluation cross-checks, not a fifth issue}
 \subsubsection{External classification and human review}
@@ -293,16 +294,15 @@ The public two-A100 BF16 run took 55m26s, including 130.27s loading; GPU-time es
 Report prose: Creative Commons Attribution 4.0 (CC-BY-4.0), Haitham Elmekaoui, 2026. Code: Apache-2.0. Findings/data: CDLA-Permissive-2.0. Weights are excluded. Keep the submission repository private until 1 December 2026 and follow the official organizer procedure [1].
 
 \end{multicols}
-\clearpage
 \section*{References}
 \begin{multicols}{2}
-\begin{enumerate}[leftmargin=18pt,itemsep=6pt]
+\fontsize{8.5}{9.5}\selectfont\raggedright
+\begin{enumerate}[leftmargin=18pt,itemsep=3pt]
 \interlinepenalty=10000
 \item HackApertus. \emph{Challenge 1A: Red-Teaming Apertus, submission requirements and judging criteria.} \url{https://github.com/HackApertus/project-template/blob/main/track_1a/README.md}. Verified 15 October 2026; template revision \pathtext{09f8e9e2b588db3325869b23c6d5132f5c3756f7}.
 \item Swiss AI. \emph{Apertus v1.5 70B model card.} \url{https://huggingface.co/swiss-ai/Apertus-v1.5-70B}. Audited hosted identifier: \pathtext{apertus-v1.5-70b}; checkpoint equivalence to a public revision was not exposed.
 \item Cloudflare. \emph{Clef: typed decision model.} \url{https://huggingface.co/Cloudflare/clef}. Supporting classifier only; revision \pathtext{0b331204bb13fbd2ca93a64df1956f5b55478ce5}.
 \item HackApertus. \emph{Track 1A findings schema and report template.} \url{https://github.com/HackApertus/project-template/tree/main/track_1a}. An invalid literal newline in the upstream schema was escaped without changing validation rules; original bytes remain in \pathtext{docs/audit/upstream_findings.schema}.
-\item Haitham Elmekaoui. \emph{Apertus Choice Audit: evidence, rubric and evaluation records.} 2026. Run \pathtext{20261008_223825}; rubric \pathtext{choice-justification-v2.1-pilot}; sampling seed 42. Data, source hashes and provenance accompany the report.
 \item Stefan Heimersheim and Neel Nanda. \emph{How to use and interpret activation patching.} 2024. \url{https://arxiv.org/abs/2404.15255}.
 \end{enumerate}
 \end{multicols}

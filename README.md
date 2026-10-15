@@ -2,7 +2,7 @@
 
 **Haitham Elmekaoui | HackApertus Track 1A | final integrated submission**
 
-Start with the [six-page report plus references](track_1a/ApertusChoiceAudit_Report.pdf), [full technical report](track_1a/technical_report.md), [behavioral casebook](track_1a/docs/RESPONSE_CASEBOOK.md), and [reproduction guide](track_1a/docs/REPRODUCIBILITY.md).
+Start with the [six-page report including references](track_1a/ApertusChoiceAudit_Report.pdf), [full technical report](track_1a/technical_report.md), [behavioral casebook](track_1a/docs/RESPONSE_CASEBOOK.md), and [reproduction guide](track_1a/docs/REPRODUCIBILITY.md).
 
 We test whether Apertus turns demographic cues into unsupported reasons to choose between people with equal supplied qualifications. The submission combines 12,904 successful English/French/Arabic behavioral responses, separate stereotyping and reasoning evaluation, completed human verification and an original-format white-box childcare supplement.
 
@@ -28,7 +28,7 @@ python -m pip install -r track_1a/requirements.txt
 python track_1a/src/run_all.py
 ```
 
-See [measured validation and exact limits](track_1a/docs/FINAL_VALIDATION.md). A native Docker daemon is unavailable on the preparation workstation; Dockerfile-derived Linux-container and clean-package checks are recorded separately. The included GitHub Actions workflow runs the exact root `make run` command on Ubuntu when the private repository is uploaded; it has not been triggered here.
+See [measured validation and exact limits](track_1a/docs/FINAL_VALIDATION.md). A native Docker daemon is unavailable on the preparation workstation; Dockerfile-derived Linux-container and clean-package checks are recorded separately. The exact root `make run` command passed on Ubuntu in [GitHub Actions](https://github.com/ElmekaouiHaitham/apertus-track1a/actions/runs/38823057967) for initial upload `9b84f65`; subsequent pushes run the same check automatically.
 
 The report integrates the completed white-box result, methods and negative controls. Its [full supplement](track_1a/supplementary/whitebox/NATURAL_RESULTS.md) preserves actual name-plus-explanation output, fresh name families, qualification controls and incomplete specificity (2/16 teamwork and 6/8 same-gender tie changes). The [earlier A/B pilot](track_1a/supplementary/whitebox/RESULTS.md) is retained separately. Frozen replay verifies saved measurements; it does not rerun the 70B model or retrain probes from remote activation arrays. Optional paid inference is documented separately and never launched by `make run`.
 
@@ -43,4 +43,4 @@ The report integrates the completed white-box result, methods and negative contr
 
 The official Track 1A README is retained in place. The report follows its section template; raw organizer files and revision fingerprints are preserved under `docs/audit/upstream_20261015/`. A literal newline in the upstream schema description was escaped without changing its validation rules.
 
-Keep the submission PRIVATE until 1 December 2026. The organizer requires a private GitHub repository with `judgeailights` added and a report upload through its submission page. This preparation has not published or submitted anything. Code: Apache-2.0; findings/data: CDLA-Permissive-2.0; report: CC-BY-4.0.
+Keep the submission PRIVATE until 1 December 2026. The organizer requires a private GitHub repository with `judgeailights` added and a report upload through its submission page. The private repository is uploaded; the organizer portal submission is a separate step. Code: Apache-2.0; findings/data: CDLA-Permissive-2.0; report: CC-BY-4.0.
