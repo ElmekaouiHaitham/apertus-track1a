@@ -41,6 +41,6 @@ The report integrates the completed white-box result, methods and negative contr
 | `track_1a/notebooks/` | Executed, package-relative behavioral analysis notebook. |
 | `track_1a/output/` | Regenerated results; not an input or a submission prerequisite. |
 
-The official Track 1A README is retained in place. The report follows its section template; raw organizer files and revision fingerprints are preserved under `docs/audit/upstream_20261015/`. A literal newline in the upstream schema description was escaped without changing its validation rules.
+The [Track 1A README](track_1a/README.md) guides readers through this submission. The original organizer README, report template and revision fingerprints are preserved under `track_1a/docs/audit/upstream_20261015/`. A literal newline in the upstream schema description was escaped without changing its validation rules.
 
 Keep the submission PRIVATE until 1 December 2026. The organizer requires a private GitHub repository with `judgeailights` added and a report upload through its submission page. The private repository is uploaded; the organizer portal submission is a separate step. Code: Apache-2.0; findings/data: CDLA-Permissive-2.0; report: CC-BY-4.0.
