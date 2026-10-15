@@ -7,7 +7,7 @@ Prepared 15 October 2026. This record distinguishes completed checks from checks
 - Official template pinned to `09f8e9e2b588db3325869b23c6d5132f5c3756f7`; original files and hashes retained under `audit/upstream_20261015/`.
 - Four real findings, using the organizer's fields and unchanged validation rules. The upstream literal-newline JSON error is escaped only in the description; raw bytes are preserved.
 - Eighteen complete walkthroughs: sixteen reviewed historical conversations and two unpatched public-checkpoint baselines. Supplemental provenance and decoding settings are explicit. Internal interventions remain separately labeled in their casebooks.
-- Integrated report: six total pages including references. `ApertusChoiceAudit_Report.pdf`, `HaithamElmekaoui_Report.pdf` and `findings.pdf` contain identical bytes. The first is the team-named upload; the others are compatibility aliases. The final pagination revision preserves all report body wording and removes only the requested self-reference; the activation-patching reference is renumbered from 6 to 5.
+- Integrated report: six total pages including references. `ApertusChoiceAudit_Report.pdf` is the single submission PDF. The final pagination revision preserves all report body wording and removes only the requested self-reference; the activation-patching reference is renumbered from 6 to 5.
 - Original behavioral corpus and human labels remain frozen. No new human B/R labels, hidden-intent claim, demonstrated repair or new vulnerability class is invented.
 
 ## Reproduction commands

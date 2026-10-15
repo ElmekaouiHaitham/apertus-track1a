@@ -11,6 +11,6 @@ COPY findings findings
 COPY supplementary supplementary
 COPY technical_report.md .
 COPY README.md Makefile Dockerfile ./
-COPY findings.pdf HaithamElmekaoui_Report.pdf ./
+COPY ApertusChoiceAudit_Report.pdf ./
 RUN python -m unittest discover -s tests
 CMD ["python", "src/run_all.py"]

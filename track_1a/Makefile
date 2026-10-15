@@ -9,4 +9,4 @@ live:
 	docker run --rm -e LLM_NAME -e LLM_BASE_URL -e LLM_API_KEY -v "$(CURDIR)/output:/audit/output" apertus-choice-audit python src/live_replay.py --finding all
 report:
 	tectonic --outdir . docs/report.tex
-	python -c "from pathlib import Path; import shutil; [shutil.copyfile('report.pdf', name) for name in ('ApertusChoiceAudit_Report.pdf', 'findings.pdf', 'HaithamElmekaoui_Report.pdf')]"
+	python -c "from pathlib import Path; Path('report.pdf').replace('ApertusChoiceAudit_Report.pdf')"

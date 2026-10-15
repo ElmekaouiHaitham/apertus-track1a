@@ -2,7 +2,7 @@
 
 - Keep `track_1a/` and its prerequisite filenames; the root Makefile delegates to it.
 - The Dockerfile-derived Linux container and local Python replay pass; see FINAL_VALIDATION.md. Native Docker-daemon `make run` remains to be confirmed by the included Ubuntu CI workflow or a Docker-equipped machine.
-- Review `ApertusChoiceAudit_Report.pdf` (six content pages plus references), `technical_report.md`, and the four issue files under `findings/`.
+- Review `ApertusChoiceAudit_Report.pdf` (six total pages including references), `technical_report.md`, and the four issue files under `findings/`.
 - Revisit the medium-confidence audit records if time permits. Their uncertainty is retained in the report, not silently resolved by marking review complete.
 - Create the PRIVATE GitHub repository from the official template and add `judgeailights` as collaborator. This package does not create, upload or publish a repository.
 - Submit the repository URL and PDF using the official organizer submission page linked from the track README. Do not assume Devpost handles submission.

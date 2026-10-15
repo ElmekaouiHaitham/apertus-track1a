@@ -13,7 +13,7 @@ ROOT=Path(__file__).resolve().parents[1]
 
 def main():
     required=["README.md","Makefile","Dockerfile","technical_report.md","findings/findings.schema",
-              "HaithamElmekaoui_Report.pdf","findings.pdf","docs/REPRODUCIBILITY.md","docs/FINAL_VALIDATION.md"]
+              "ApertusChoiceAudit_Report.pdf","docs/REPRODUCIBILITY.md","docs/FINAL_VALIDATION.md"]
     for name in required:
         if not (ROOT/name).is_file():raise ValueError("Missing required deliverable: "+name)
     raw=(ROOT/"docs/audit/upstream_20261015/findings.schema").read_text(encoding="utf-8")
@@ -30,8 +30,7 @@ def main():
     report=(ROOT/"technical_report.md").read_text(encoding="utf-8")
     expected=["Problem","Red Teaming Method","Findings Dataset","Lessons Learnt and Recommendations","Reproducibility","License","References"]
     if re.findall(r"^## (.+)$",report,re.M)!=expected:raise ValueError("Official report sections/order changed")
-    pdf=ROOT/"HaithamElmekaoui_Report.pdf"
-    if pdf.read_bytes()!=(ROOT/"findings.pdf").read_bytes():raise ValueError("Report aliases disagree")
+    pdf=ROOT/"ApertusChoiceAudit_Report.pdf"
     reader=PdfReader(pdf)
     text=[page.extract_text() or "" for page in reader.pages]
     refs=[i for i,t in enumerate(text) if re.search(r"(?m)^References\s*$",t)]
