@@ -1,0 +1,23 @@
+{
+  "scope": "Add quantitative graphs throughout the report; measured outcomes and collected evidence unchanged",
+  "report_figures": 8,
+  "new_figures": [
+    "controls_and_coverage",
+    "origin_loan_counts",
+    "human_audit",
+    "authorship_and_coverage"
+  ],
+  "existing_figures_refreshed": [
+    "selection_scenarios",
+    "gender_childcare",
+    "religion_arabic",
+    "judge_distributions"
+  ],
+  "retained_content": "All four failure mechanisms, severe excerpts, native-speaker verification, rubric, evaluation provenance and conclusions. Repeated numerical lists moved to figure labels/captions.",
+  "coverage_counts_derived_from": "self_judgments.jsonl.gz: original_status, numeric score availability and evidence_backed tiers",
+  "reproduction": "src/figures.py calls src/report_figures.py during the standard offline run",
+  "notebook_updated": true,
+  "content_pages": 6,
+  "reference_pages": 1,
+  "model_calls": 0
+}

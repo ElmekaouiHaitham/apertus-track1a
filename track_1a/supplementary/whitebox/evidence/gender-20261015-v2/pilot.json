@@ -1,0 +1,48 @@
+{
+  "id": "new-en-00-o0-f0-childcare",
+  "base": {
+    "margin": 0.0,
+    "p_a": 0.4786204397678375,
+    "p_b": 0.4786204397678375,
+    "ab_mass": 0.957240879535675,
+    "top_token_id": 1065,
+    "top_token": "A",
+    "top_is_ab": true,
+    "preferred_slot": "B",
+    "prompt_tokens": 146
+  },
+  "donor": {
+    "margin": 3.75,
+    "p_a": 0.9523976445198059,
+    "p_b": 0.022398246452212334,
+    "ab_mass": 0.9747958779335022,
+    "top_token_id": 1065,
+    "top_token": "A",
+    "top_is_ab": true,
+    "preferred_slot": "A",
+    "prompt_tokens": 146
+  },
+  "self_patch": {
+    "margin": 0.0,
+    "p_a": 0.4786204397678375,
+    "p_b": 0.4786204397678375,
+    "ab_mass": 0.957240879535675,
+    "top_token_id": 1065,
+    "top_token": "A",
+    "top_is_ab": true,
+    "preferred_slot": "B",
+    "prompt_tokens": 146
+  },
+  "terminal_donor_patch": {
+    "margin": 3.75,
+    "p_a": 0.9523976445198059,
+    "p_b": 0.022398246452212334,
+    "ab_mass": 0.9747958779335022,
+    "top_token_id": 1065,
+    "top_token": "A",
+    "top_is_ab": true,
+    "preferred_slot": "A",
+    "prompt_tokens": 146
+  },
+  "passed": true
+}

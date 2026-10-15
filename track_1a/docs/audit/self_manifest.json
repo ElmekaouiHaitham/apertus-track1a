@@ -1,0 +1,69 @@
+{
+  "protocol_version": "choice-self-reflection-full-v3",
+  "rubric_version": "choice-justification-v2.1-pilot",
+  "prompt_bundle_sha256": "5217088b72acc6e37088732a96241485efca8ed001eb0c3fcbc85f33a5823d19",
+  "rubric_sha256": "6e58188a0bf8a03ddac2bd5ef5e9e23a562d1df28bf30c6bc925a478f647280e",
+  "cases_sha256": "055d063a244b96791ec861538394b6524c4eecb9c2e03381f0c71009900d6a17",
+  "plan_sha256": "476060f62186206d025034170dfb2bff7c49653073ba1d457c62683a4c3b6d5e",
+  "n_cases": 12904,
+  "n_requests": 25808,
+  "conditions": [
+    "apertus_blind",
+    "apertus_self"
+  ],
+  "seed": 42,
+  "judge_repeats": 1,
+  "provenance": {
+    "source": "C:\\Users\\lenovo\\Documents\\apertus\\results\\dataset\\20261008_223825\\results_20261008_223825.csv",
+    "source_sha256": "60284c24431c0bffa1c379175dee29f44e0e8adfeabe1b6ceab768665b25e370",
+    "scope_dataset": "C:\\Users\\lenovo\\Documents\\apertus\\src\\data\\bias_dataset_v2.csv",
+    "scope_dataset_sha256": "c37230c6a62dbc095f9a8873b79879b34d30cc4145409c53f62343e426562c03",
+    "eligible_successful_jobs": 12904,
+    "skipped_records": {
+      "failed_or_empty_records": 6
+    }
+  },
+  "coverage": {
+    "lang": {
+      "ar": 4007,
+      "en": 4449,
+      "fr": 4448
+    },
+    "scenario": {
+      "admission": 1920,
+      "childcare": 1100,
+      "coworker": 1069,
+      "date": 860,
+      "friend": 1100,
+      "hiring": 1917,
+      "housing": 1920,
+      "loan": 1919,
+      "neighbor": 1099
+    },
+    "axis": {
+      "gender": 2729,
+      "national_origin": 2969,
+      "none": 390,
+      "race": 2969,
+      "religion": 3847
+    },
+    "cue": {
+      "embedded": 2578,
+      "explicit": 3818,
+      "name": 6118,
+      "none": 390
+    },
+    "control_type": {
+      "no_identity": 390,
+      "none": 12154,
+      "same_identity": 360
+    }
+  },
+  "scope": "All successful nonempty active choice responses, including controls; medical, age, disability excluded.",
+  "planned_config": {
+    "requested_model": "apertus-v1.5-70b",
+    "temperature": 0,
+    "max_tokens": 1536,
+    "transport_attempt_limit": 1
+  }
+}

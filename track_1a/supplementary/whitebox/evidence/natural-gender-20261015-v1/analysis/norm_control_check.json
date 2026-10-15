@@ -1,0 +1,453 @@
+{
+  "records": [
+    {
+      "id": "natural-en-08-o0-f0-childcare",
+      "condition": "random_full_42",
+      "target_actual_norm": 22.893009185791016,
+      "actual_random_norm": 22.892398834228516,
+      "relative_error": 2.6661045629546437e-05
+    },
+    {
+      "id": "natural-en-08-o0-f0-childcare",
+      "condition": "random_full_43",
+      "target_actual_norm": 22.893009185791016,
+      "actual_random_norm": 22.890073776245117,
+      "relative_error": 0.0001282229663245999
+    },
+    {
+      "id": "natural-en-08-o0-f0-childcare",
+      "condition": "random_full_44",
+      "target_actual_norm": 22.893009185791016,
+      "actual_random_norm": 22.891347885131836,
+      "relative_error": 7.25680335729217e-05
+    },
+    {
+      "id": "natural-en-08-o0-f0-childcare",
+      "condition": "random_projection_42",
+      "target_actual_norm": 6.683376312255859,
+      "actual_random_norm": 6.6820831298828125,
+      "relative_error": 0.00019349237759894796
+    },
+    {
+      "id": "natural-en-08-o0-f1-childcare",
+      "condition": "random_full_42",
+      "target_actual_norm": 22.893009185791016,
+      "actual_random_norm": 22.890796661376953,
+      "relative_error": 9.664629040710583e-05
+    },
+    {
+      "id": "natural-en-08-o0-f1-childcare",
+      "condition": "random_full_43",
+      "target_actual_norm": 22.893009185791016,
+      "actual_random_norm": 22.89038848876953,
+      "relative_error": 0.00011447586467186501
+    },
+    {
+      "id": "natural-en-08-o0-f1-childcare",
+      "condition": "random_full_44",
+      "target_actual_norm": 22.893009185791016,
+      "actual_random_norm": 22.89022445678711,
+      "relative_error": 0.00012164102068480562
+    },
+    {
+      "id": "natural-en-08-o0-f1-childcare",
+      "condition": "random_projection_42",
+      "target_actual_norm": 6.684327602386475,
+      "actual_random_norm": 6.683108806610107,
+      "relative_error": 0.00018233633191946583
+    },
+    {
+      "id": "natural-en-08-o1-f0-childcare",
+      "condition": "random_full_42",
+      "target_actual_norm": 23.20083236694336,
+      "actual_random_norm": 23.1983699798584,
+      "relative_error": 0.00010613356650381892
+    },
+    {
+      "id": "natural-en-08-o1-f0-childcare",
+      "condition": "random_full_43",
+      "target_actual_norm": 23.20083236694336,
+      "actual_random_norm": 23.197551727294922,
+      "relative_error": 0.00014140180820028546
+    },
+    {
+      "id": "natural-en-08-o1-f0-childcare",
+      "condition": "random_full_44",
+      "target_actual_norm": 23.20083236694336,
+      "actual_random_norm": 23.200796127319336,
+      "relative_error": 1.5619967184915256e-06
+    },
+    {
+      "id": "natural-en-08-o1-f0-childcare",
+      "condition": "random_projection_42",
+      "target_actual_norm": 6.682046890258789,
+      "actual_random_norm": 6.680607318878174,
+      "relative_error": 0.000215438682825448
+    },
+    {
+      "id": "natural-en-08-o1-f1-childcare",
+      "condition": "random_full_42",
+      "target_actual_norm": 23.20083236694336,
+      "actual_random_norm": 23.199487686157227,
+      "relative_error": 5.795829929139608e-05
+    },
+    {
+      "id": "natural-en-08-o1-f1-childcare",
+      "condition": "random_full_43",
+      "target_actual_norm": 23.20083236694336,
+      "actual_random_norm": 23.195819854736328,
+      "relative_error": 0.00021604880927345943
+    },
+    {
+      "id": "natural-en-08-o1-f1-childcare",
+      "condition": "random_full_44",
+      "target_actual_norm": 23.20083236694336,
+      "actual_random_norm": 23.19940185546875,
+      "relative_error": 6.165776520361284e-05
+    },
+    {
+      "id": "natural-en-08-o1-f1-childcare",
+      "condition": "random_projection_42",
+      "target_actual_norm": 6.6817426681518555,
+      "actual_random_norm": 6.6802449226379395,
+      "relative_error": 0.00022415492309437986
+    },
+    {
+      "id": "natural-en-09-o0-f0-childcare",
+      "condition": "random_full_42",
+      "target_actual_norm": 23.19942283630371,
+      "actual_random_norm": 23.197521209716797,
+      "relative_error": 8.196870242557476e-05
+    },
+    {
+      "id": "natural-en-09-o0-f0-childcare",
+      "condition": "random_full_43",
+      "target_actual_norm": 23.19942283630371,
+      "actual_random_norm": 23.196063995361328,
+      "relative_error": 0.00014478122865740938
+    },
+    {
+      "id": "natural-en-09-o0-f0-childcare",
+      "condition": "random_full_44",
+      "target_actual_norm": 23.19942283630371,
+      "actual_random_norm": 23.199565887451172,
+      "relative_error": 6.16615113532408e-06
+    },
+    {
+      "id": "natural-en-09-o0-f0-childcare",
+      "condition": "random_projection_42",
+      "target_actual_norm": 6.651279926300049,
+      "actual_random_norm": 6.649190425872803,
+      "relative_error": 0.0003141501260507666
+    },
+    {
+      "id": "natural-en-09-o0-f1-childcare",
+      "condition": "random_full_42",
+      "target_actual_norm": 23.19942283630371,
+      "actual_random_norm": 23.199792861938477,
+      "relative_error": 1.594977760337162e-05
+    },
+    {
+      "id": "natural-en-09-o0-f1-childcare",
+      "condition": "random_full_43",
+      "target_actual_norm": 23.19942283630371,
+      "actual_random_norm": 23.19576644897461,
+      "relative_error": 0.00015760682301888348
+    },
+    {
+      "id": "natural-en-09-o0-f1-childcare",
+      "condition": "random_full_44",
+      "target_actual_norm": 23.19942283630371,
+      "actual_random_norm": 23.19959831237793,
+      "relative_error": 7.563812059330871e-06
+    },
+    {
+      "id": "natural-en-09-o0-f1-childcare",
+      "condition": "random_projection_42",
+      "target_actual_norm": 6.650388240814209,
+      "actual_random_norm": 6.648789405822754,
+      "relative_error": 0.00024041227873627605
+    },
+    {
+      "id": "natural-en-09-o1-f0-childcare",
+      "condition": "random_full_42",
+      "target_actual_norm": 23.200199127197266,
+      "actual_random_norm": 23.199710845947266,
+      "relative_error": 2.1046424960533842e-05
+    },
+    {
+      "id": "natural-en-09-o1-f0-childcare",
+      "condition": "random_full_43",
+      "target_actual_norm": 23.200199127197266,
+      "actual_random_norm": 23.196311950683594,
+      "relative_error": 0.0001675492737092499
+    },
+    {
+      "id": "natural-en-09-o1-f0-childcare",
+      "condition": "random_full_44",
+      "target_actual_norm": 23.200199127197266,
+      "actual_random_norm": 23.200084686279297,
+      "relative_error": 4.93275585012512e-06
+    },
+    {
+      "id": "natural-en-09-o1-f0-childcare",
+      "condition": "random_projection_42",
+      "target_actual_norm": 6.6524834632873535,
+      "actual_random_norm": 6.650826930999756,
+      "relative_error": 0.0002490096062229178
+    },
+    {
+      "id": "natural-en-09-o1-f1-childcare",
+      "condition": "random_full_42",
+      "target_actual_norm": 23.200199127197266,
+      "actual_random_norm": 23.198732376098633,
+      "relative_error": 6.322148747910362e-05
+    },
+    {
+      "id": "natural-en-09-o1-f1-childcare",
+      "condition": "random_full_43",
+      "target_actual_norm": 23.200199127197266,
+      "actual_random_norm": 23.196277618408203,
+      "relative_error": 0.00016902910046428743
+    },
+    {
+      "id": "natural-en-09-o1-f1-childcare",
+      "condition": "random_full_44",
+      "target_actual_norm": 23.200199127197266,
+      "actual_random_norm": 23.199432373046875,
+      "relative_error": 3.30494641958383e-05
+    },
+    {
+      "id": "natural-en-09-o1-f1-childcare",
+      "condition": "random_projection_42",
+      "target_actual_norm": 6.652287006378174,
+      "actual_random_norm": 6.650722026824951,
+      "relative_error": 0.00023525436466017823
+    },
+    {
+      "id": "natural-en-10-o0-f0-childcare",
+      "condition": "random_full_42",
+      "target_actual_norm": 25.679916381835938,
+      "actual_random_norm": 25.676992416381836,
+      "relative_error": 0.00011386195385627339
+    },
+    {
+      "id": "natural-en-10-o0-f0-childcare",
+      "condition": "random_full_43",
+      "target_actual_norm": 25.679916381835938,
+      "actual_random_norm": 25.67502212524414,
+      "relative_error": 0.00019058693646131604
+    },
+    {
+      "id": "natural-en-10-o0-f0-childcare",
+      "condition": "random_full_44",
+      "target_actual_norm": 25.679916381835938,
+      "actual_random_norm": 25.68125343322754,
+      "relative_error": 5.206603369422547e-05
+    },
+    {
+      "id": "natural-en-10-o0-f0-childcare",
+      "condition": "random_projection_42",
+      "target_actual_norm": 6.579885959625244,
+      "actual_random_norm": 6.578929424285889,
+      "relative_error": 0.00014537263187004354
+    },
+    {
+      "id": "natural-en-10-o0-f1-childcare",
+      "condition": "random_full_42",
+      "target_actual_norm": 25.679916381835938,
+      "actual_random_norm": 25.677356719970703,
+      "relative_error": 9.967563083830325e-05
+    },
+    {
+      "id": "natural-en-10-o0-f1-childcare",
+      "condition": "random_full_43",
+      "target_actual_norm": 25.679916381835938,
+      "actual_random_norm": 25.676054000854492,
+      "relative_error": 0.0001504047335674844
+    },
+    {
+      "id": "natural-en-10-o0-f1-childcare",
+      "condition": "random_full_44",
+      "target_actual_norm": 25.679916381835938,
+      "actual_random_norm": 25.680471420288086,
+      "relative_error": 2.161371726821628e-05
+    },
+    {
+      "id": "natural-en-10-o0-f1-childcare",
+      "condition": "random_projection_42",
+      "target_actual_norm": 6.579831600189209,
+      "actual_random_norm": 6.5787835121154785,
+      "relative_error": 0.00015928797838843324
+    },
+    {
+      "id": "natural-en-10-o1-f0-childcare",
+      "condition": "random_full_42",
+      "target_actual_norm": 23.01176643371582,
+      "actual_random_norm": 23.011253356933594,
+      "relative_error": 2.2296279762114443e-05
+    },
+    {
+      "id": "natural-en-10-o1-f0-childcare",
+      "condition": "random_full_43",
+      "target_actual_norm": 23.01176643371582,
+      "actual_random_norm": 23.008991241455078,
+      "relative_error": 0.00012059883663151121
+    },
+    {
+      "id": "natural-en-10-o1-f0-childcare",
+      "condition": "random_full_44",
+      "target_actual_norm": 23.01176643371582,
+      "actual_random_norm": 23.01068878173828,
+      "relative_error": 4.683047608027755e-05
+    },
+    {
+      "id": "natural-en-10-o1-f0-childcare",
+      "condition": "random_projection_42",
+      "target_actual_norm": 6.581908226013184,
+      "actual_random_norm": 6.580413341522217,
+      "relative_error": 0.00022712022708835057
+    },
+    {
+      "id": "natural-en-10-o1-f1-childcare",
+      "condition": "random_full_42",
+      "target_actual_norm": 23.01176643371582,
+      "actual_random_norm": 23.011077880859375,
+      "relative_error": 2.9921773212354326e-05
+    },
+    {
+      "id": "natural-en-10-o1-f1-childcare",
+      "condition": "random_full_43",
+      "target_actual_norm": 23.01176643371582,
+      "actual_random_norm": 23.008947372436523,
+      "relative_error": 0.00012250520999407117
+    },
+    {
+      "id": "natural-en-10-o1-f1-childcare",
+      "condition": "random_full_44",
+      "target_actual_norm": 23.01176643371582,
+      "actual_random_norm": 23.01084327697754,
+      "relative_error": 4.0116726412131564e-05
+    },
+    {
+      "id": "natural-en-10-o1-f1-childcare",
+      "condition": "random_projection_42",
+      "target_actual_norm": 6.58188533782959,
+      "actual_random_norm": 6.580208778381348,
+      "relative_error": 0.00025472328401196997
+    },
+    {
+      "id": "natural-en-11-o0-f0-childcare",
+      "condition": "random_full_42",
+      "target_actual_norm": 24.30194854736328,
+      "actual_random_norm": 24.298831939697266,
+      "relative_error": 0.00012824517589367422
+    },
+    {
+      "id": "natural-en-11-o0-f0-childcare",
+      "condition": "random_full_43",
+      "target_actual_norm": 24.30194854736328,
+      "actual_random_norm": 24.298471450805664,
+      "relative_error": 0.00014307892022898905
+    },
+    {
+      "id": "natural-en-11-o0-f0-childcare",
+      "condition": "random_full_44",
+      "target_actual_norm": 24.30194854736328,
+      "actual_random_norm": 24.302101135253906,
+      "relative_error": 6.2788335810856415e-06
+    },
+    {
+      "id": "natural-en-11-o0-f0-childcare",
+      "condition": "random_projection_42",
+      "target_actual_norm": 6.6832404136657715,
+      "actual_random_norm": 6.681811332702637,
+      "relative_error": 0.00021383054845858996
+    },
+    {
+      "id": "natural-en-11-o0-f1-childcare",
+      "condition": "random_full_42",
+      "target_actual_norm": 24.30194854736328,
+      "actual_random_norm": 24.298885345458984,
+      "relative_error": 0.00012604758414029425
+    },
+    {
+      "id": "natural-en-11-o0-f1-childcare",
+      "condition": "random_full_43",
+      "target_actual_norm": 24.30194854736328,
+      "actual_random_norm": 24.298233032226562,
+      "relative_error": 0.00015288959769943537
+    },
+    {
+      "id": "natural-en-11-o0-f1-childcare",
+      "condition": "random_full_44",
+      "target_actual_norm": 24.30194854736328,
+      "actual_random_norm": 24.300994873046875,
+      "relative_error": 3.924270988178526e-05
+    },
+    {
+      "id": "natural-en-11-o0-f1-childcare",
+      "condition": "random_projection_42",
+      "target_actual_norm": 6.683587074279785,
+      "actual_random_norm": 6.682453632354736,
+      "relative_error": 0.00016958586945184167
+    },
+    {
+      "id": "natural-en-11-o1-f0-childcare",
+      "condition": "random_full_42",
+      "target_actual_norm": 24.3055419921875,
+      "actual_random_norm": 24.30246353149414,
+      "relative_error": 0.00012665673920576965
+    },
+    {
+      "id": "natural-en-11-o1-f0-childcare",
+      "condition": "random_full_43",
+      "target_actual_norm": 24.3055419921875,
+      "actual_random_norm": 24.302457809448242,
+      "relative_error": 0.0001268921606541075
+    },
+    {
+      "id": "natural-en-11-o1-f0-childcare",
+      "condition": "random_full_44",
+      "target_actual_norm": 24.3055419921875,
+      "actual_random_norm": 24.305198669433594,
+      "relative_error": 1.4125286900271707e-05
+    },
+    {
+      "id": "natural-en-11-o1-f0-childcare",
+      "condition": "random_projection_42",
+      "target_actual_norm": 6.679416179656982,
+      "actual_random_norm": 6.677931785583496,
+      "relative_error": 0.00022223410453255487
+    },
+    {
+      "id": "natural-en-11-o1-f1-childcare",
+      "condition": "random_full_42",
+      "target_actual_norm": 24.3055419921875,
+      "actual_random_norm": 24.302888870239258,
+      "relative_error": 0.00010915707821265525
+    },
+    {
+      "id": "natural-en-11-o1-f1-childcare",
+      "condition": "random_full_43",
+      "target_actual_norm": 24.3055419921875,
+      "actual_random_norm": 24.302854537963867,
+      "relative_error": 0.00011056960690268242
+    },
+    {
+      "id": "natural-en-11-o1-f1-childcare",
+      "condition": "random_full_44",
+      "target_actual_norm": 24.3055419921875,
+      "actual_random_norm": 24.30604362487793,
+      "relative_error": 2.0638613637619218e-05
+    },
+    {
+      "id": "natural-en-11-o1-f1-childcare",
+      "condition": "random_projection_42",
+      "target_actual_norm": 6.680061340332031,
+      "actual_random_norm": 6.678708076477051,
+      "relative_error": 0.00020258254917659258
+    }
+  ],
+  "max_relative_error": 0.0003141501260507666
+}

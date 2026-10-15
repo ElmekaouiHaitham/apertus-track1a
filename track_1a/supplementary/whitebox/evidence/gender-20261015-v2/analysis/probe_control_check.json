@@ -1,0 +1,6 @@
+{
+  "decision_null_changed_training_labels": 2,
+  "n_training_labels": 24,
+  "decision_null_label_change_fraction": 0.08333333333333333,
+  "interpretation": "Decision readout is descriptive and may recover gender/position. This permutation changes few labels and is a weak negative control; it does not establish an independent decision representation."
+}

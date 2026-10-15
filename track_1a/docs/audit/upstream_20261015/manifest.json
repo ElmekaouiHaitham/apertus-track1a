@@ -1,0 +1,26 @@
+{
+  "repository": "https://github.com/HackApertus/project-template",
+  "revision": "09f8e9e2b588db3325869b23c6d5132f5c3756f7",
+  "files": {
+    "track_1a/README.md": {
+      "local": "README.md",
+      "sha256": "f577ad061abe7e936d60b249f2fce37ba5beef11b64854ae5c054bdd480fbd3c"
+    },
+    "track_1a/technical_report.md": {
+      "local": "technical_report.md",
+      "sha256": "9a863be6c6f407bbbccb21adff6667142415323937415dd7b1f5ed07ae2a92d9"
+    },
+    "track_1a/findings/findings.schema": {
+      "local": "findings.schema",
+      "sha256": "c52683c65f0d89c277b902405fda414d436e39bbd8c3816f55f3ec43adf1863b"
+    },
+    "track_1a/findings/example_findings.json": {
+      "local": "example_findings.json",
+      "sha256": "3ee8406cd29fe00969748b54ef175a70dbd36fc4ddeae06dbe4f022b12fce01d"
+    },
+    "track_1a/Makefile": {
+      "local": "Makefile",
+      "sha256": "6ebf3d8e4ad60328168d7b1c3614bc23397bc50a00ac8e90fba8a0cd084ad99d"
+    }
+  }
+}

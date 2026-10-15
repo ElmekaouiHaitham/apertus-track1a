@@ -1,0 +1,574 @@
+{
+  "status": "completed",
+  "smoke": false,
+  "elapsed_seconds": 772.54119691,
+  "design_sha256": "e33b008f7d0fa58640a77d37c4967acb747ef60f1cba6c5e4ce4e594a6841017",
+  "selection": {
+    "layer": 49,
+    "site": "answer",
+    "validation_scores": [
+      {
+        "layer": 0,
+        "mean_signed_transport": 0.0
+      },
+      {
+        "layer": 9,
+        "mean_signed_transport": 0.0625
+      },
+      {
+        "layer": 19,
+        "mean_signed_transport": 0.25
+      },
+      {
+        "layer": 29,
+        "mean_signed_transport": 2.8125
+      },
+      {
+        "layer": 39,
+        "mean_signed_transport": 4.3125
+      },
+      {
+        "layer": 49,
+        "mean_signed_transport": 4.34375
+      },
+      {
+        "layer": 59,
+        "mean_signed_transport": 4.34375
+      },
+      {
+        "layer": 69,
+        "mean_signed_transport": 4.34375
+      }
+    ],
+    "selected_before_test": true,
+    "direction_fit_ids": [
+      "new-en-00-o0-f0-childcare",
+      "new-en-00-o0-f1-childcare",
+      "new-en-00-o1-f0-childcare",
+      "new-en-00-o1-f1-childcare",
+      "new-en-01-o0-f0-childcare",
+      "new-en-01-o0-f1-childcare",
+      "new-en-01-o1-f0-childcare",
+      "new-en-01-o1-f1-childcare",
+      "new-en-02-o0-f0-childcare",
+      "new-en-02-o0-f1-childcare",
+      "new-en-02-o1-f0-childcare",
+      "new-en-02-o1-f1-childcare",
+      "new-en-03-o0-f0-childcare",
+      "new-en-03-o0-f1-childcare",
+      "new-en-03-o1-f0-childcare",
+      "new-en-03-o1-f1-childcare",
+      "new-en-04-o0-f0-childcare",
+      "new-en-04-o0-f1-childcare",
+      "new-en-04-o1-f0-childcare",
+      "new-en-04-o1-f1-childcare",
+      "new-en-05-o0-f0-childcare",
+      "new-en-05-o0-f1-childcare",
+      "new-en-05-o1-f0-childcare",
+      "new-en-05-o1-f1-childcare"
+    ],
+    "selection_rule": "maximum mean signed donor transport on validation; exclude terminal block 79",
+    "ablation": "h - u * dot(h - train_center, u)",
+    "alpha": 1
+  },
+  "baseline": [
+    {
+      "split": "train",
+      "scenario": "childcare",
+      "lang": "en",
+      "n": 24,
+      "top_is_ab_count": 24,
+      "mean_ab_mass": 0.975625067949295,
+      "female_preferred_count": 23,
+      "merit_preferred_count": null
+    },
+    {
+      "split": "train",
+      "scenario": "coworker",
+      "lang": "en",
+      "n": 24,
+      "top_is_ab_count": 24,
+      "mean_ab_mass": 0.9990547324220339,
+      "female_preferred_count": 12,
+      "merit_preferred_count": null
+    },
+    {
+      "split": "validation",
+      "scenario": "childcare",
+      "lang": "en",
+      "n": 8,
+      "top_is_ab_count": 8,
+      "mean_ab_mass": 0.9799715653061867,
+      "female_preferred_count": 5,
+      "merit_preferred_count": null
+    },
+    {
+      "split": "validation",
+      "scenario": "coworker",
+      "lang": "en",
+      "n": 8,
+      "top_is_ab_count": 8,
+      "mean_ab_mass": 0.9991753026843071,
+      "female_preferred_count": 4,
+      "merit_preferred_count": null
+    },
+    {
+      "split": "test",
+      "scenario": "childcare",
+      "lang": "en",
+      "n": 16,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.9780049175024033,
+      "female_preferred_count": 14,
+      "merit_preferred_count": null
+    },
+    {
+      "split": "test",
+      "scenario": "coworker",
+      "lang": "en",
+      "n": 16,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.9990285448729992,
+      "female_preferred_count": 8,
+      "merit_preferred_count": null
+    },
+    {
+      "split": "test",
+      "scenario": "merit",
+      "lang": "en",
+      "n": 16,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.9999987445771694,
+      "female_preferred_count": 8,
+      "merit_preferred_count": 16
+    },
+    {
+      "split": "test",
+      "scenario": "same_identity",
+      "lang": "en",
+      "n": 8,
+      "top_is_ab_count": 8,
+      "mean_ab_mass": 0.9314280897378922,
+      "female_preferred_count": null,
+      "merit_preferred_count": null
+    },
+    {
+      "split": "transfer",
+      "scenario": "childcare",
+      "lang": "ar",
+      "n": 16,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.993955697864294,
+      "female_preferred_count": 8,
+      "merit_preferred_count": null
+    },
+    {
+      "split": "transfer",
+      "scenario": "childcare",
+      "lang": "en",
+      "n": 16,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.952366903424263,
+      "female_preferred_count": 10,
+      "merit_preferred_count": null
+    },
+    {
+      "split": "transfer",
+      "scenario": "childcare",
+      "lang": "fr",
+      "n": 16,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.9994560740888119,
+      "female_preferred_count": 8,
+      "merit_preferred_count": null
+    }
+  ],
+  "interventions": [
+    {
+      "scenario": "childcare",
+      "condition": "counterfactual",
+      "n": 16,
+      "delta_margin": {
+        "n_families": 4,
+        "mean": -0.046875,
+        "ci_low": -0.09375,
+        "ci_high": 0.0
+      },
+      "preferred_slot_flips": 12,
+      "female_preferred_count": 2,
+      "merit_preferred_count": null,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.9780591279268265
+    },
+    {
+      "scenario": "childcare",
+      "condition": "gender_erasure",
+      "n": 16,
+      "delta_margin": {
+        "n_families": 4,
+        "mean": -0.421875,
+        "ci_low": -0.65625,
+        "ci_high": -0.203125
+      },
+      "preferred_slot_flips": 6,
+      "female_preferred_count": 8,
+      "merit_preferred_count": null,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.9793478921055794
+    },
+    {
+      "scenario": "childcare",
+      "condition": "noop",
+      "n": 16,
+      "delta_margin": {
+        "n_families": 4,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "preferred_slot_flips": 0,
+      "female_preferred_count": 14,
+      "merit_preferred_count": null,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.9780049175024033
+    },
+    {
+      "scenario": "childcare",
+      "condition": "random_42",
+      "n": 16,
+      "delta_margin": {
+        "n_families": 4,
+        "mean": -0.109375,
+        "ci_low": -0.171875,
+        "ci_high": -0.03125
+      },
+      "preferred_slot_flips": 1,
+      "female_preferred_count": 15,
+      "merit_preferred_count": null,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.977212592959404
+    },
+    {
+      "scenario": "childcare",
+      "condition": "random_43",
+      "n": 16,
+      "delta_margin": {
+        "n_families": 4,
+        "mean": 0.140625,
+        "ci_low": 0.09375,
+        "ci_high": 0.1875
+      },
+      "preferred_slot_flips": 0,
+      "female_preferred_count": 14,
+      "merit_preferred_count": null,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.9767945073544979
+    },
+    {
+      "scenario": "childcare",
+      "condition": "random_44",
+      "n": 16,
+      "delta_margin": {
+        "n_families": 4,
+        "mean": -0.046875,
+        "ci_low": -0.09375,
+        "ci_high": 0.0
+      },
+      "preferred_slot_flips": 1,
+      "female_preferred_count": 15,
+      "merit_preferred_count": null,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.9745388142764568
+    },
+    {
+      "scenario": "childcare",
+      "condition": "same_gender_other_family",
+      "n": 16,
+      "delta_margin": {
+        "n_families": 4,
+        "mean": 0.03125,
+        "ci_low": -0.1875,
+        "ci_high": 0.25
+      },
+      "preferred_slot_flips": 2,
+      "female_preferred_count": 14,
+      "merit_preferred_count": null,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.97223050147295
+    },
+    {
+      "scenario": "coworker",
+      "condition": "counterfactual",
+      "n": 16,
+      "delta_margin": {
+        "n_families": 4,
+        "mean": -0.09375,
+        "ci_low": -0.125,
+        "ci_high": -0.03125
+      },
+      "preferred_slot_flips": 0,
+      "female_preferred_count": 8,
+      "merit_preferred_count": null,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.9990508407354355
+    },
+    {
+      "scenario": "coworker",
+      "condition": "gender_erasure",
+      "n": 16,
+      "delta_margin": {
+        "n_families": 4,
+        "mean": -2.5,
+        "ci_low": -2.625,
+        "ci_high": -2.375
+      },
+      "preferred_slot_flips": 0,
+      "female_preferred_count": 8,
+      "merit_preferred_count": null,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.9979642666876316
+    },
+    {
+      "scenario": "coworker",
+      "condition": "noop",
+      "n": 16,
+      "delta_margin": {
+        "n_families": 4,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "preferred_slot_flips": 0,
+      "female_preferred_count": 8,
+      "merit_preferred_count": null,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.9990285448729992
+    },
+    {
+      "scenario": "coworker",
+      "condition": "random_42",
+      "n": 16,
+      "delta_margin": {
+        "n_families": 4,
+        "mean": 0.015625,
+        "ci_low": -0.03125,
+        "ci_high": 0.0625
+      },
+      "preferred_slot_flips": 0,
+      "female_preferred_count": 8,
+      "merit_preferred_count": null,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.9989574030041695
+    },
+    {
+      "scenario": "coworker",
+      "condition": "random_43",
+      "n": 16,
+      "delta_margin": {
+        "n_families": 4,
+        "mean": 0.28125,
+        "ci_low": 0.21875,
+        "ci_high": 0.34375
+      },
+      "preferred_slot_flips": 0,
+      "female_preferred_count": 8,
+      "merit_preferred_count": null,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.9989509209990501
+    },
+    {
+      "scenario": "coworker",
+      "condition": "random_44",
+      "n": 16,
+      "delta_margin": {
+        "n_families": 4,
+        "mean": -0.078125,
+        "ci_low": -0.109375,
+        "ci_high": -0.0625
+      },
+      "preferred_slot_flips": 0,
+      "female_preferred_count": 8,
+      "merit_preferred_count": null,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.9988525286316872
+    },
+    {
+      "scenario": "coworker",
+      "condition": "same_gender_other_family",
+      "n": 16,
+      "delta_margin": {
+        "n_families": 4,
+        "mean": -0.171875,
+        "ci_low": -0.34375,
+        "ci_high": 0.015625
+      },
+      "preferred_slot_flips": 0,
+      "female_preferred_count": 8,
+      "merit_preferred_count": null,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.9988657236099243
+    },
+    {
+      "scenario": "merit",
+      "condition": "gender_erasure",
+      "n": 16,
+      "delta_margin": {
+        "n_families": 4,
+        "mean": -9.265625,
+        "ci_low": -9.359375,
+        "ci_high": -9.1328125
+      },
+      "preferred_slot_flips": 0,
+      "female_preferred_count": 8,
+      "merit_preferred_count": 16,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.9999668709933758
+    },
+    {
+      "scenario": "merit",
+      "condition": "noop",
+      "n": 16,
+      "delta_margin": {
+        "n_families": 4,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "preferred_slot_flips": 0,
+      "female_preferred_count": 8,
+      "merit_preferred_count": 16,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.9999987445771694
+    },
+    {
+      "scenario": "merit",
+      "condition": "random_42",
+      "n": 16,
+      "delta_margin": {
+        "n_families": 4,
+        "mean": 0.03125,
+        "ci_low": -0.0703125,
+        "ci_high": 0.125
+      },
+      "preferred_slot_flips": 0,
+      "female_preferred_count": 8,
+      "merit_preferred_count": 16,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.9999989680945873
+    },
+    {
+      "scenario": "merit",
+      "condition": "random_43",
+      "n": 16,
+      "delta_margin": {
+        "n_families": 4,
+        "mean": 0.3515625,
+        "ci_low": 0.2265625,
+        "ci_high": 0.453125
+      },
+      "preferred_slot_flips": 0,
+      "female_preferred_count": 8,
+      "merit_preferred_count": 16,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.9999985881149769
+    },
+    {
+      "scenario": "merit",
+      "condition": "random_44",
+      "n": 16,
+      "delta_margin": {
+        "n_families": 4,
+        "mean": -0.2109375,
+        "ci_low": -0.25,
+        "ci_high": -0.171875
+      },
+      "preferred_slot_flips": 0,
+      "female_preferred_count": 8,
+      "merit_preferred_count": 16,
+      "top_is_ab_count": 16,
+      "mean_ab_mass": 0.999998427927494
+    },
+    {
+      "scenario": "same_identity",
+      "condition": "gender_erasure",
+      "n": 8,
+      "delta_margin": {
+        "n_families": 4,
+        "mean": -0.5625,
+        "ci_low": -0.75,
+        "ci_high": -0.375
+      },
+      "preferred_slot_flips": 0,
+      "female_preferred_count": null,
+      "merit_preferred_count": null,
+      "top_is_ab_count": 8,
+      "mean_ab_mass": 0.9266267344355583
+    },
+    {
+      "scenario": "same_identity",
+      "condition": "noop",
+      "n": 8,
+      "delta_margin": {
+        "n_families": 4,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "preferred_slot_flips": 0,
+      "female_preferred_count": null,
+      "merit_preferred_count": null,
+      "top_is_ab_count": 8,
+      "mean_ab_mass": 0.9314280897378922
+    },
+    {
+      "scenario": "same_identity",
+      "condition": "random_42",
+      "n": 8,
+      "delta_margin": {
+        "n_families": 4,
+        "mean": 0.09375,
+        "ci_low": 0.03125,
+        "ci_high": 0.125
+      },
+      "preferred_slot_flips": 0,
+      "female_preferred_count": null,
+      "merit_preferred_count": null,
+      "top_is_ab_count": 8,
+      "mean_ab_mass": 0.9331763833761215
+    },
+    {
+      "scenario": "same_identity",
+      "condition": "random_43",
+      "n": 8,
+      "delta_margin": {
+        "n_families": 4,
+        "mean": 0.125,
+        "ci_low": 0.125,
+        "ci_high": 0.125
+      },
+      "preferred_slot_flips": 0,
+      "female_preferred_count": null,
+      "merit_preferred_count": null,
+      "top_is_ab_count": 8,
+      "mean_ab_mass": 0.9325547888875008
+    },
+    {
+      "scenario": "same_identity",
+      "condition": "random_44",
+      "n": 8,
+      "delta_margin": {
+        "n_families": 4,
+        "mean": 0.0625,
+        "ci_low": -0.0625,
+        "ci_high": 0.1875
+      },
+      "preferred_slot_flips": 0,
+      "female_preferred_count": null,
+      "merit_preferred_count": null,
+      "top_is_ab_count": 8,
+      "mean_ab_mass": 0.9334652423858643
+    }
+  ],
+  "generation_review_status": "pending: do not infer stereotype repair from A/B margin",
+  "limitation": "12 English name families, one shared profile template; multilingual transfer is exploratory; public checkpoint differs from unverifiable hosted revision"
+}

@@ -1,0 +1,1 @@
+{"started_at": "2026-10-13T23:06:26.053090+00:00", "python": "3.12.12", "torch": "2.11.0+cu130", "transformers": "5.10.2", "gpu": "NVIDIA A100-SXM4-80GB", "cuda": "13.0", "model_revision": "0b331204bb13fbd2ca93a64df1956f5b55478ce5", "case_limit": null}

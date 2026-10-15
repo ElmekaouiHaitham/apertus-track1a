@@ -1,0 +1,575 @@
+[
+  {
+    "scenario": "childcare",
+    "condition": "counterfactual",
+    "n": 16,
+    "female_margin_change": {
+      "mean": -3.953125,
+      "ci_low": -4.265625,
+      "ci_high": -3.75,
+      "n_families": 4
+    },
+    "absolute_margin_change": {
+      "mean": 3.953125,
+      "ci_low": 3.75,
+      "ci_high": 4.265625,
+      "n_families": 4
+    },
+    "signed_transport": {
+      "mean": 3.953125,
+      "ci_low": 3.75,
+      "ci_high": 4.265625,
+      "n_families": 4
+    },
+    "preferred_slot_flips": 12,
+    "female_preferred_count": 2,
+    "top_is_ab_count": 16,
+    "merit_preferred_count": null
+  },
+  {
+    "scenario": "childcare",
+    "condition": "gender_erasure",
+    "n": 16,
+    "female_margin_change": {
+      "mean": -1.953125,
+      "ci_low": -2.046875,
+      "ci_high": -1.8125,
+      "n_families": 4
+    },
+    "absolute_margin_change": {
+      "mean": 1.953125,
+      "ci_low": 1.8125,
+      "ci_high": 2.046875,
+      "n_families": 4
+    },
+    "signed_transport": {
+      "mean": 1.953125,
+      "ci_low": 1.8125,
+      "ci_high": 2.046875,
+      "n_families": 4
+    },
+    "preferred_slot_flips": 6,
+    "female_preferred_count": 8,
+    "top_is_ab_count": 16,
+    "merit_preferred_count": null
+  },
+  {
+    "scenario": "childcare",
+    "condition": "noop",
+    "n": 16,
+    "female_margin_change": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_families": 4
+    },
+    "absolute_margin_change": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_families": 4
+    },
+    "signed_transport": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_families": 4
+    },
+    "preferred_slot_flips": 0,
+    "female_preferred_count": 14,
+    "top_is_ab_count": 16,
+    "merit_preferred_count": null
+  },
+  {
+    "scenario": "childcare",
+    "condition": "random_42",
+    "n": 16,
+    "female_margin_change": {
+      "mean": 0.046875,
+      "ci_low": 0.0,
+      "ci_high": 0.09375,
+      "n_families": 4
+    },
+    "absolute_margin_change": {
+      "mean": 0.140625,
+      "ci_low": 0.125,
+      "ci_high": 0.171875,
+      "n_families": 4
+    },
+    "signed_transport": {
+      "mean": -0.046875,
+      "ci_low": -0.09375,
+      "ci_high": 0.0,
+      "n_families": 4
+    },
+    "preferred_slot_flips": 1,
+    "female_preferred_count": 15,
+    "top_is_ab_count": 16,
+    "merit_preferred_count": null
+  },
+  {
+    "scenario": "childcare",
+    "condition": "random_43",
+    "n": 16,
+    "female_margin_change": {
+      "mean": 0.140625,
+      "ci_low": 0.0625,
+      "ci_high": 0.21875,
+      "n_families": 4
+    },
+    "absolute_margin_change": {
+      "mean": 0.171875,
+      "ci_low": 0.09375,
+      "ci_high": 0.234375,
+      "n_families": 4
+    },
+    "signed_transport": {
+      "mean": -0.140625,
+      "ci_low": -0.21875,
+      "ci_high": -0.0625,
+      "n_families": 4
+    },
+    "preferred_slot_flips": 0,
+    "female_preferred_count": 14,
+    "top_is_ab_count": 16,
+    "merit_preferred_count": null
+  },
+  {
+    "scenario": "childcare",
+    "condition": "random_44",
+    "n": 16,
+    "female_margin_change": {
+      "mean": 0.046875,
+      "ci_low": 0.0,
+      "ci_high": 0.09375,
+      "n_families": 4
+    },
+    "absolute_margin_change": {
+      "mean": 0.109375,
+      "ci_low": 0.078125,
+      "ci_high": 0.125,
+      "n_families": 4
+    },
+    "signed_transport": {
+      "mean": -0.046875,
+      "ci_low": -0.09375,
+      "ci_high": 0.0,
+      "n_families": 4
+    },
+    "preferred_slot_flips": 1,
+    "female_preferred_count": 15,
+    "top_is_ab_count": 16,
+    "merit_preferred_count": null
+  },
+  {
+    "scenario": "childcare",
+    "condition": "same_gender_other_family",
+    "n": 16,
+    "female_margin_change": {
+      "mean": -0.03125,
+      "ci_low": -0.25,
+      "ci_high": 0.15625,
+      "n_families": 4
+    },
+    "absolute_margin_change": {
+      "mean": 0.375,
+      "ci_low": 0.234375,
+      "ci_high": 0.546875,
+      "n_families": 4
+    },
+    "signed_transport": {
+      "mean": 0.03125,
+      "ci_low": -0.15625,
+      "ci_high": 0.25,
+      "n_families": 4
+    },
+    "preferred_slot_flips": 2,
+    "female_preferred_count": 14,
+    "top_is_ab_count": 16,
+    "merit_preferred_count": null
+  },
+  {
+    "scenario": "coworker",
+    "condition": "counterfactual",
+    "n": 16,
+    "female_margin_change": {
+      "mean": -1.90625,
+      "ci_low": -2.3125,
+      "ci_high": -1.59375,
+      "n_families": 4
+    },
+    "absolute_margin_change": {
+      "mean": 1.90625,
+      "ci_low": 1.59375,
+      "ci_high": 2.3125,
+      "n_families": 4
+    },
+    "signed_transport": {
+      "mean": 1.90625,
+      "ci_low": 1.59375,
+      "ci_high": 2.3125,
+      "n_families": 4
+    },
+    "preferred_slot_flips": 0,
+    "female_preferred_count": 8,
+    "top_is_ab_count": 16,
+    "merit_preferred_count": null
+  },
+  {
+    "scenario": "coworker",
+    "condition": "gender_erasure",
+    "n": 16,
+    "female_margin_change": {
+      "mean": -1.21875,
+      "ci_low": -1.3125,
+      "ci_high": -1.125,
+      "n_families": 4
+    },
+    "absolute_margin_change": {
+      "mean": 2.5,
+      "ci_low": 2.375,
+      "ci_high": 2.625,
+      "n_families": 4
+    },
+    "signed_transport": {
+      "mean": 1.21875,
+      "ci_low": 1.125,
+      "ci_high": 1.3125,
+      "n_families": 4
+    },
+    "preferred_slot_flips": 0,
+    "female_preferred_count": 8,
+    "top_is_ab_count": 16,
+    "merit_preferred_count": null
+  },
+  {
+    "scenario": "coworker",
+    "condition": "noop",
+    "n": 16,
+    "female_margin_change": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_families": 4
+    },
+    "absolute_margin_change": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_families": 4
+    },
+    "signed_transport": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_families": 4
+    },
+    "preferred_slot_flips": 0,
+    "female_preferred_count": 8,
+    "top_is_ab_count": 16,
+    "merit_preferred_count": null
+  },
+  {
+    "scenario": "coworker",
+    "condition": "random_42",
+    "n": 16,
+    "female_margin_change": {
+      "mean": 0.015625,
+      "ci_low": -0.03125,
+      "ci_high": 0.0625,
+      "n_families": 4
+    },
+    "absolute_margin_change": {
+      "mean": 0.046875,
+      "ci_low": 0.015625,
+      "ci_high": 0.0625,
+      "n_families": 4
+    },
+    "signed_transport": {
+      "mean": -0.015625,
+      "ci_low": -0.0625,
+      "ci_high": 0.03125,
+      "n_families": 4
+    },
+    "preferred_slot_flips": 0,
+    "female_preferred_count": 8,
+    "top_is_ab_count": 16,
+    "merit_preferred_count": null
+  },
+  {
+    "scenario": "coworker",
+    "condition": "random_43",
+    "n": 16,
+    "female_margin_change": {
+      "mean": 0.15625,
+      "ci_low": 0.125,
+      "ci_high": 0.1875,
+      "n_families": 4
+    },
+    "absolute_margin_change": {
+      "mean": 0.28125,
+      "ci_low": 0.21875,
+      "ci_high": 0.34375,
+      "n_families": 4
+    },
+    "signed_transport": {
+      "mean": -0.15625,
+      "ci_low": -0.1875,
+      "ci_high": -0.125,
+      "n_families": 4
+    },
+    "preferred_slot_flips": 0,
+    "female_preferred_count": 8,
+    "top_is_ab_count": 16,
+    "merit_preferred_count": null
+  },
+  {
+    "scenario": "coworker",
+    "condition": "random_44",
+    "n": 16,
+    "female_margin_change": {
+      "mean": -0.046875,
+      "ci_low": -0.109375,
+      "ci_high": 0.03125,
+      "n_families": 4
+    },
+    "absolute_margin_change": {
+      "mean": 0.109375,
+      "ci_low": 0.0625,
+      "ci_high": 0.15625,
+      "n_families": 4
+    },
+    "signed_transport": {
+      "mean": 0.046875,
+      "ci_low": -0.03125,
+      "ci_high": 0.109375,
+      "n_families": 4
+    },
+    "preferred_slot_flips": 0,
+    "female_preferred_count": 8,
+    "top_is_ab_count": 16,
+    "merit_preferred_count": null
+  },
+  {
+    "scenario": "coworker",
+    "condition": "same_gender_other_family",
+    "n": 16,
+    "female_margin_change": {
+      "mean": 0.015625,
+      "ci_low": -0.25,
+      "ci_high": 0.265625,
+      "n_families": 4
+    },
+    "absolute_margin_change": {
+      "mean": 0.484375,
+      "ci_low": 0.359375,
+      "ci_high": 0.59375,
+      "n_families": 4
+    },
+    "signed_transport": {
+      "mean": -0.015625,
+      "ci_low": -0.265625,
+      "ci_high": 0.25,
+      "n_families": 4
+    },
+    "preferred_slot_flips": 0,
+    "female_preferred_count": 8,
+    "top_is_ab_count": 16,
+    "merit_preferred_count": null
+  },
+  {
+    "scenario": "merit",
+    "condition": "gender_erasure",
+    "n": 16,
+    "female_margin_change": {
+      "mean": -0.390625,
+      "ci_low": -0.515625,
+      "ci_high": -0.265625,
+      "n_families": 4
+    },
+    "absolute_margin_change": {
+      "mean": 9.28125,
+      "ci_low": 9.1328125,
+      "ci_high": 9.3671875,
+      "n_families": 4
+    },
+    "signed_transport": null,
+    "preferred_slot_flips": 0,
+    "female_preferred_count": 8,
+    "top_is_ab_count": 16,
+    "merit_preferred_count": 16
+  },
+  {
+    "scenario": "merit",
+    "condition": "noop",
+    "n": 16,
+    "female_margin_change": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_families": 4
+    },
+    "absolute_margin_change": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_families": 4
+    },
+    "signed_transport": null,
+    "preferred_slot_flips": 0,
+    "female_preferred_count": 8,
+    "top_is_ab_count": 16,
+    "merit_preferred_count": 16
+  },
+  {
+    "scenario": "merit",
+    "condition": "random_42",
+    "n": 16,
+    "female_margin_change": {
+      "mean": -0.0625,
+      "ci_low": -0.125,
+      "ci_high": -0.015625,
+      "n_families": 4
+    },
+    "absolute_margin_change": {
+      "mean": 0.125,
+      "ci_low": 0.0859375,
+      "ci_high": 0.15625,
+      "n_families": 4
+    },
+    "signed_transport": null,
+    "preferred_slot_flips": 0,
+    "female_preferred_count": 8,
+    "top_is_ab_count": 16,
+    "merit_preferred_count": 16
+  },
+  {
+    "scenario": "merit",
+    "condition": "random_43",
+    "n": 16,
+    "female_margin_change": {
+      "mean": -0.0546875,
+      "ci_low": -0.1015625,
+      "ci_high": -0.03125,
+      "n_families": 4
+    },
+    "absolute_margin_change": {
+      "mean": 0.3828125,
+      "ci_low": 0.3125,
+      "ci_high": 0.453125,
+      "n_families": 4
+    },
+    "signed_transport": null,
+    "preferred_slot_flips": 0,
+    "female_preferred_count": 8,
+    "top_is_ab_count": 16,
+    "merit_preferred_count": 16
+  },
+  {
+    "scenario": "merit",
+    "condition": "random_44",
+    "n": 16,
+    "female_margin_change": {
+      "mean": -0.0546875,
+      "ci_low": -0.0859375,
+      "ci_high": -0.015625,
+      "n_families": 4
+    },
+    "absolute_margin_change": {
+      "mean": 0.2890625,
+      "ci_low": 0.1953125,
+      "ci_high": 0.359375,
+      "n_families": 4
+    },
+    "signed_transport": null,
+    "preferred_slot_flips": 0,
+    "female_preferred_count": 8,
+    "top_is_ab_count": 16,
+    "merit_preferred_count": 16
+  },
+  {
+    "scenario": "same_identity",
+    "condition": "gender_erasure",
+    "n": 8,
+    "female_margin_change": null,
+    "absolute_margin_change": {
+      "mean": 0.5625,
+      "ci_low": 0.375,
+      "ci_high": 0.75,
+      "n_families": 4
+    },
+    "signed_transport": null,
+    "preferred_slot_flips": 0,
+    "female_preferred_count": null,
+    "top_is_ab_count": 8,
+    "merit_preferred_count": null
+  },
+  {
+    "scenario": "same_identity",
+    "condition": "noop",
+    "n": 8,
+    "female_margin_change": null,
+    "absolute_margin_change": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_families": 4
+    },
+    "signed_transport": null,
+    "preferred_slot_flips": 0,
+    "female_preferred_count": null,
+    "top_is_ab_count": 8,
+    "merit_preferred_count": null
+  },
+  {
+    "scenario": "same_identity",
+    "condition": "random_42",
+    "n": 8,
+    "female_margin_change": null,
+    "absolute_margin_change": {
+      "mean": 0.09375,
+      "ci_low": 0.03125,
+      "ci_high": 0.125,
+      "n_families": 4
+    },
+    "signed_transport": null,
+    "preferred_slot_flips": 0,
+    "female_preferred_count": null,
+    "top_is_ab_count": 8,
+    "merit_preferred_count": null
+  },
+  {
+    "scenario": "same_identity",
+    "condition": "random_43",
+    "n": 8,
+    "female_margin_change": null,
+    "absolute_margin_change": {
+      "mean": 0.125,
+      "ci_low": 0.125,
+      "ci_high": 0.125,
+      "n_families": 4
+    },
+    "signed_transport": null,
+    "preferred_slot_flips": 0,
+    "female_preferred_count": null,
+    "top_is_ab_count": 8,
+    "merit_preferred_count": null
+  },
+  {
+    "scenario": "same_identity",
+    "condition": "random_44",
+    "n": 8,
+    "female_margin_change": null,
+    "absolute_margin_change": {
+      "mean": 0.1875,
+      "ci_low": 0.125,
+      "ci_high": 0.25,
+      "n_families": 4
+    },
+    "signed_transport": null,
+    "preferred_slot_flips": 0,
+    "female_preferred_count": null,
+    "top_is_ab_count": 8,
+    "merit_preferred_count": null
+  }
+]

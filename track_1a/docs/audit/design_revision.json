@@ -1,0 +1,16 @@
+{
+  "scope": "Presentation only",
+  "data_hashes_unchanged": true,
+  "all_seven_evidence_blocks_unchanged": true,
+  "title": "Equal Qualifications, Unequal Stories: Multilingual Stereotyping and Bias in Apertus v1.5 70B",
+  "main_output": "findings.pdf",
+  "changes": [
+    "two-column LaTeX article",
+    "conventional abstract and section hierarchy",
+    "vector research plots from the same measurements",
+    "numbered captions and tables",
+    "no dashboard cards or draft/choice-only title labels"
+  ],
+  "historical_revision": true,
+  "superseded_by": "pipeline_revision.json"
+}

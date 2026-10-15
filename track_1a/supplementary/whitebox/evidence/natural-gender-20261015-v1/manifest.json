@@ -1,0 +1,20 @@
+{
+  "files": {
+    "summary.json": "a1925d315c243eae8ff02397e0e697889407af772e89a2e26c53cdcedfc45db1",
+    "status.json": "c807840e2c8fb7e42d31227a291f07fa5aaa190f8d337acf4bad5c2c75733f4d",
+    "interventions.jsonl": "716385fcb16954ff17047c1464c2520bcca437e70e465c8e0cf18a58889c9596",
+    "selection.json": "620b64380ff9f4a0704083a8474825be6014652c93cc6676745b63faa5139241",
+    "validation_scan.jsonl": "b90fa37be4f1e5303ec222c54ebdf837e9252774569982108c57c01f1fa88bff",
+    "hook_validation.json": "2e2544a147a09d2a08ef5f61b016f2a2fce6cd6d13bd350ad81aacebb169c0c3",
+    "gender_probes.json": "d84f9932a78e67808b8be820de2fc09eaac5d6fe3fdea51e2c9085572aaa62e3",
+    "gender_directions.npz": "f9594ef4bc3e48bfb712bdf2e1e6609c1b4c1eb8f499d5c670b1870cc556a94b",
+    "baseline.jsonl": "51edc13288011cab1f57ff88ecd60c0d1f8ce08b245c01736b070b498ca81daa",
+    "readouts.jsonl": "11be99b7e5ebd105d162661019c262177ca35053e93ababbdc3e21953c0747dd",
+    "runtime.json": "be7b0eeeb544ee808bc0bbba7ce6d794092a21b8b0d047692139906b7e88da1a",
+    "natural_experiment.py": "d078e07ac3459e523782c6f6e4714b49d155bd436430d7bea5c4926a567bd135",
+    "natural_design.json": "fe894b89e74d9f56bbae36e03b2a3f3da0e642c2b8b333166da8180411306b22"
+  },
+  "source_volume": "apertus-gender-whitebox-results",
+  "run_id": "natural-gender-20261015-v1",
+  "activations": "Retained in the remote volume; not needed for CPU result verification"
+}

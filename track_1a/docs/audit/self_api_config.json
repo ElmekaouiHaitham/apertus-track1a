@@ -1,0 +1,9 @@
+{
+  "base_url": "https://hackapertus.livemap.sh/v1",
+  "requested_model": "apertus-v1.5-70b",
+  "temperature": 0,
+  "max_tokens": 1536,
+  "provider_revision": "unreported",
+  "transport_attempt_limit": 1,
+  "json_mode": false
+}

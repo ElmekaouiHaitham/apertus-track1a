@@ -1,0 +1,338 @@
+[
+  {
+    "split": "test",
+    "scenario": "childcare",
+    "condition": "counterfactual",
+    "n": 16,
+    "n_families": 4,
+    "n_eligible": 16,
+    "donor_restored": 16,
+    "restoration_all_interval": {
+      "mean": 1.0,
+      "ci_low": 1.0,
+      "ci_high": 1.0,
+      "n_families": 4
+    },
+    "strict_name_flips": 16,
+    "unselected": 0,
+    "female_selected": 0,
+    "qualified_selected": null,
+    "probe_matches_donor": 16,
+    "mean_actual_norm": 23.724079608917236
+  },
+  {
+    "split": "test",
+    "scenario": "childcare",
+    "condition": "gender_projection",
+    "n": 16,
+    "n_families": 4,
+    "n_eligible": 16,
+    "donor_restored": 0,
+    "restoration_all_interval": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_families": 4
+    },
+    "strict_name_flips": 0,
+    "unselected": 0,
+    "female_selected": 16,
+    "qualified_selected": null,
+    "probe_matches_donor": 16,
+    "mean_actual_norm": 6.649234265089035
+  },
+  {
+    "split": "test",
+    "scenario": "childcare",
+    "condition": "noop",
+    "n": 16,
+    "n_families": 4,
+    "n_eligible": 16,
+    "donor_restored": 0,
+    "restoration_all_interval": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_families": 4
+    },
+    "strict_name_flips": 0,
+    "unselected": 0,
+    "female_selected": 16,
+    "qualified_selected": null,
+    "probe_matches_donor": 0,
+    "mean_actual_norm": 0.0
+  },
+  {
+    "split": "test",
+    "scenario": "childcare",
+    "condition": "random_full_42",
+    "n": 16,
+    "n_families": 4,
+    "n_eligible": 16,
+    "donor_restored": 0,
+    "restoration_all_interval": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_families": 4
+    },
+    "strict_name_flips": 0,
+    "unselected": 0,
+    "female_selected": 16,
+    "qualified_selected": null,
+    "probe_matches_donor": 0,
+    "mean_actual_norm": 23.72228503227234
+  },
+  {
+    "split": "test",
+    "scenario": "childcare",
+    "condition": "random_full_43",
+    "n": 16,
+    "n_families": 4,
+    "n_eligible": 16,
+    "donor_restored": 0,
+    "restoration_all_interval": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_families": 4
+    },
+    "strict_name_flips": 0,
+    "unselected": 0,
+    "female_selected": 16,
+    "qualified_selected": null,
+    "probe_matches_donor": 0,
+    "mean_actual_norm": 23.720580339431763
+  },
+  {
+    "split": "test",
+    "scenario": "childcare",
+    "condition": "random_full_44",
+    "n": 16,
+    "n_families": 4,
+    "n_eligible": 16,
+    "donor_restored": 0,
+    "restoration_all_interval": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_families": 4
+    },
+    "strict_name_flips": 0,
+    "unselected": 0,
+    "female_selected": 16,
+    "qualified_selected": null,
+    "probe_matches_donor": 0,
+    "mean_actual_norm": 23.72362792491913
+  },
+  {
+    "split": "test",
+    "scenario": "childcare",
+    "condition": "random_projection_42",
+    "n": 16,
+    "n_families": 4,
+    "n_eligible": 16,
+    "donor_restored": 0,
+    "restoration_all_interval": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_families": 4
+    },
+    "strict_name_flips": 0,
+    "unselected": 0,
+    "female_selected": 16,
+    "qualified_selected": null,
+    "probe_matches_donor": 0,
+    "mean_actual_norm": 6.647800803184509
+  },
+  {
+    "split": "test",
+    "scenario": "childcare",
+    "condition": "same_gender_other_family",
+    "n": 16,
+    "n_families": 4,
+    "n_eligible": 16,
+    "donor_restored": 0,
+    "restoration_all_interval": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_families": 4
+    },
+    "strict_name_flips": 0,
+    "unselected": 0,
+    "female_selected": 16,
+    "qualified_selected": null,
+    "probe_matches_donor": 0,
+    "mean_actual_norm": 3.897319495677948
+  },
+  {
+    "split": "test",
+    "scenario": "coworker",
+    "condition": "counterfactual",
+    "n": 16,
+    "n_families": 4,
+    "n_eligible": 2,
+    "donor_restored": 2,
+    "restoration_all_interval": {
+      "mean": 0.125,
+      "ci_low": 0.0,
+      "ci_high": 0.375,
+      "n_families": 4
+    },
+    "strict_name_flips": 2,
+    "unselected": 0,
+    "female_selected": 7,
+    "qualified_selected": null,
+    "probe_matches_donor": 16,
+    "mean_actual_norm": 23.724079608917236
+  },
+  {
+    "split": "test",
+    "scenario": "coworker",
+    "condition": "gender_projection",
+    "n": 16,
+    "n_families": 4,
+    "n_eligible": 2,
+    "donor_restored": 0,
+    "restoration_all_interval": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_families": 4
+    },
+    "strict_name_flips": 0,
+    "unselected": 0,
+    "female_selected": 9,
+    "qualified_selected": null,
+    "probe_matches_donor": 16,
+    "mean_actual_norm": 6.649234265089035
+  },
+  {
+    "split": "test",
+    "scenario": "merit",
+    "condition": "counterfactual",
+    "n": 16,
+    "n_families": 4,
+    "n_eligible": 0,
+    "donor_restored": 0,
+    "restoration_all_interval": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_families": 4
+    },
+    "strict_name_flips": 0,
+    "unselected": 0,
+    "female_selected": 8,
+    "qualified_selected": 16,
+    "probe_matches_donor": 16,
+    "mean_actual_norm": 24.19423770904541
+  },
+  {
+    "split": "test",
+    "scenario": "merit",
+    "condition": "gender_projection",
+    "n": 16,
+    "n_families": 4,
+    "n_eligible": 0,
+    "donor_restored": 0,
+    "restoration_all_interval": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_families": 4
+    },
+    "strict_name_flips": 0,
+    "unselected": 0,
+    "female_selected": 8,
+    "qualified_selected": 16,
+    "probe_matches_donor": 16,
+    "mean_actual_norm": 6.61843204498291
+  },
+  {
+    "split": "test",
+    "scenario": "same_identity",
+    "condition": "counterfactual",
+    "n": 8,
+    "n_families": 4,
+    "n_eligible": 6,
+    "donor_restored": 6,
+    "restoration_all_interval": {
+      "mean": 0.75,
+      "ci_low": 0.25,
+      "ci_high": 1.0,
+      "n_families": 4
+    },
+    "strict_name_flips": 6,
+    "unselected": 0,
+    "female_selected": 0,
+    "qualified_selected": null,
+    "probe_matches_donor": 8,
+    "mean_actual_norm": 24.352121353149414
+  },
+  {
+    "split": "test",
+    "scenario": "same_identity",
+    "condition": "gender_projection",
+    "n": 8,
+    "n_families": 4,
+    "n_eligible": 6,
+    "donor_restored": 1,
+    "restoration_all_interval": {
+      "mean": 0.125,
+      "ci_low": 0.0,
+      "ci_high": 0.375,
+      "n_families": 4
+    },
+    "strict_name_flips": 1,
+    "unselected": 0,
+    "female_selected": 0,
+    "qualified_selected": null,
+    "probe_matches_donor": 8,
+    "mean_actual_norm": 6.645526051521301
+  },
+  {
+    "split": "transfer",
+    "scenario": "childcare",
+    "condition": "counterfactual",
+    "n": 4,
+    "n_families": 1,
+    "n_eligible": 4,
+    "donor_restored": 4,
+    "restoration_all_interval": {
+      "mean": 1.0,
+      "ci_low": 1.0,
+      "ci_high": 1.0,
+      "n_families": 1
+    },
+    "strict_name_flips": 4,
+    "unselected": 0,
+    "female_selected": 0,
+    "qualified_selected": null,
+    "probe_matches_donor": 4,
+    "mean_actual_norm": 23.490553855895996
+  },
+  {
+    "split": "transfer",
+    "scenario": "childcare",
+    "condition": "gender_projection",
+    "n": 4,
+    "n_families": 1,
+    "n_eligible": 4,
+    "donor_restored": 0,
+    "restoration_all_interval": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_families": 1
+    },
+    "strict_name_flips": 0,
+    "unselected": 0,
+    "female_selected": 4,
+    "qualified_selected": null,
+    "probe_matches_donor": 4,
+    "mean_actual_norm": 6.597389340400696
+  }
+]

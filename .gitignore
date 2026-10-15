@@ -1,0 +1,18 @@
+# Only the portable submission is intended for the private judge repository.
+/junk/
+/src/
+/analysis/
+/results/
+/research-notes/
+/organization/
+/data/
+.env
+**/.env
+**/__pycache__/
+**/*.pyc
+**/.venv/
+track_1a/output/
+track_1a/*.log
+track_1a/*.aux
+track_1a/*.out
+track_1a/*.synctex.gz

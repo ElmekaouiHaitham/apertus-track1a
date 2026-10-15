@@ -1,0 +1,25 @@
+{
+  "revision": "Prompt context and actual response excerpts for previously bare case references",
+  "complete_cited_cases": 19,
+  "casebook": "docs/RESPONSE_CASEBOOK.md",
+  "source": "data/responses.jsonl.gz joined with data/human_annotations.jsonl.gz by job_key",
+  "original_text_unchanged": true,
+  "translations_marked_in_main_report": true,
+  "new_quotes_checked_as_literal_source_substrings": true,
+  "coverage": [
+    "H005",
+    "H061",
+    "H095",
+    "H118",
+    "H176",
+    "H039",
+    "H130",
+    "H186",
+    "H164",
+    "H157"
+  ],
+  "report_content_pages": 6,
+  "figures_retained": 8,
+  "model_calls": 0,
+  "reproduction": "build_casebook.py verifies every complete pair as part of run_all.py; technical_report.md copied into Docker image"
+}

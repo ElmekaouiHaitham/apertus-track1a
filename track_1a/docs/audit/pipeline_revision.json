@@ -1,0 +1,23 @@
+{
+  "scope": "Narrative rewrite grounded in source code and official Track 1A requirements",
+  "main_output": "findings.pdf",
+  "abstract_removed": true,
+  "sequence": [
+    "red-team objective",
+    "multilingual cue/profile construction",
+    "position/name swaps and controls",
+    "collection and deterministic parsing",
+    "rubric and three evaluation routes",
+    "four documented mechanisms",
+    "judge comparison and authorship result",
+    "strengths, limits and reproduction"
+  ],
+  "findings": 4,
+  "verbatim_walkthroughs": 16,
+  "new_issue": "04_religious_belonging",
+  "new_figure": "religion_arabic.pdf",
+  "source_response_and_judge_hashes_unchanged": true,
+  "exemplars_change": "Added four existing reviewed religion cases; no collected response or judgment was edited.",
+  "paid_calls": 0,
+  "official_requirements": "https://github.com/HackApertus/project-template/blob/main/track_1a/README.md"
+}

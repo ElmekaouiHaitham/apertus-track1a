@@ -1,0 +1,7 @@
+output
+notebooks
+__pycache__
+**/__pycache__
+*.log
+*.aux
+.env

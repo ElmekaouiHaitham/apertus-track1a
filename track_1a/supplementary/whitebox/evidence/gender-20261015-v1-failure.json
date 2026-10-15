@@ -1,0 +1,5 @@
+{
+  "type": "ValueError",
+  "message": "Apertus1p5VisionTokenizerModel does not support an attention implementation through torch.nn.functional.scaled_dot_product_attention yet. Please request the support for this architecture: https://github.com/huggingface/transformers/issues/28005. If you believe this error is a bug, please open an issue in Transformers GitHub repository and load your model with the argument `attn_implementation=\"eager\"` meanwhile. Example: `model = AutoModel.from_pretrained(\"openai/whisper-tiny\", attn_implementation=\"eager\")`",
+  "elapsed_seconds": 14.201809132000001
+}

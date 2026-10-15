@@ -1,0 +1,28 @@
+{
+  "design_hash_verified": true,
+  "n_baseline": 168,
+  "n_validation_patches": 144,
+  "n_test_interventions": 344,
+  "n_transfer": 48,
+  "n_generations": 32,
+  "selected_layer": 49,
+  "weight_proof": "../../preflight.json",
+  "files": {
+    "baseline.jsonl": "978361aa67b30110868678ba17ec439fdcba09c75ba49265034d0ec23ed06438",
+    "design.json": "8e32c70a3c702085c8e5a29cd27dc0e3bf81be9d644e25531c2b42927780acb5",
+    "direction.npz": "36795a829901aea4146c0cef1af1293407ebf491f4c724582a60be931246cad1",
+    "experiment.py": "ce01532909de05d5b469f650b0b7355a0fb4926fd61c10d404a2a8c8022e69b4",
+    "generations.jsonl": "ca8ec2322720ea81e8ef8a1c26205363086fd97d9012463c8d60443f0321ad94",
+    "hook_validation.json": "f08cdfdf403686e7561ac867f7e185b583a6402ce5f251a07c0ebf79dc8a80cd",
+    "interventions.jsonl": "8918cfc6df4a07cbad1434cfed976ffbb815a6a6af06b985c7611e3a00e45b3a",
+    "pilot.json": "adf189530b0d5d761c4202b6f353cf3bf7e04dc89521524009f2b8cdaead8dd1",
+    "probes.json": "f805c9686e1bda2e298ddce95196c7de933cae06abbe341f428912b5cfade362",
+    "runtime.json": "97eb36cd6dcc187b7480d42d00adb5fbef4b2344a6a98ed0d5c835af4a2e1f5a",
+    "selection.json": "3521397b7351f374af7f88ab0508a3edc870f6485a3c4a0bd9afe3c3b0ad50c3",
+    "status.json": "d0f60a76f88ec9cfbb9e8de89753a0e7348fd8186faa7811ecc2eadf98e007d2",
+    "summary.json": "e2a1c2b890104175c6d49937bf2d4ba86e7eefe33bec1f475acde7c75fc9abdf",
+    "summary.launcher.json": "e7b8f5695e096b5040210ac55477d735a277a826ea964949c9d30a990e12aa97",
+    "transfer.jsonl": "4bf80bfa3b00d2cd73668d1d4d28a101a4710d2789f363308f44ccdff22120b6",
+    "validation_scan.jsonl": "2a14f7bbc37ce9efc2b7ef68861890483fecb35a829dbc8b17a4bd722b9a1fb8"
+  }
+}

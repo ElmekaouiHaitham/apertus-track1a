@@ -1,0 +1,18 @@
+{
+  "version": "choice-clef-classifier-v1",
+  "model": "Cloudflare/clef",
+  "revision": "0b331204bb13fbd2ca93a64df1956f5b55478ce5",
+  "sample_id": "2053b48b97f228c70c03dc7f63ebcbdeb324016c6b5530cf62be8bac1dd98b82",
+  "rubric_version": "choice-justification-v2.1-pilot",
+  "rubric_sha256": "6e58188a0bf8a03ddac2bd5ef5e9e23a562d1df28bf30c6bc925a478f647280e",
+  "plan_sha256": "5a08aa740a866ba5320c42324f4bd433d42a5f2f6ca7cb0f31b78bcf5fc443ac",
+  "max_length": 16384,
+  "n_cases": 12904,
+  "batch_size": 1,
+  "dtype": "bfloat16",
+  "prompt_version": "clef-boundary-v2",
+  "questions_v2_sha256": "c308f8ae167bc56c28ad28514bebf297f27842f51e1d2fad2321b5cb7b534603",
+  "n_source_responses": 12904,
+  "n_reused": 74,
+  "n_pending": 12830
+}

@@ -1,0 +1,68 @@
+{
+  "layer": 49,
+  "site": "answer",
+  "validation_scores": [
+    {
+      "layer": 0,
+      "mean_signed_transport": 0.0
+    },
+    {
+      "layer": 9,
+      "mean_signed_transport": 0.0625
+    },
+    {
+      "layer": 19,
+      "mean_signed_transport": 0.25
+    },
+    {
+      "layer": 29,
+      "mean_signed_transport": 2.8125
+    },
+    {
+      "layer": 39,
+      "mean_signed_transport": 4.3125
+    },
+    {
+      "layer": 49,
+      "mean_signed_transport": 4.34375
+    },
+    {
+      "layer": 59,
+      "mean_signed_transport": 4.34375
+    },
+    {
+      "layer": 69,
+      "mean_signed_transport": 4.34375
+    }
+  ],
+  "selected_before_test": true,
+  "direction_fit_ids": [
+    "new-en-00-o0-f0-childcare",
+    "new-en-00-o0-f1-childcare",
+    "new-en-00-o1-f0-childcare",
+    "new-en-00-o1-f1-childcare",
+    "new-en-01-o0-f0-childcare",
+    "new-en-01-o0-f1-childcare",
+    "new-en-01-o1-f0-childcare",
+    "new-en-01-o1-f1-childcare",
+    "new-en-02-o0-f0-childcare",
+    "new-en-02-o0-f1-childcare",
+    "new-en-02-o1-f0-childcare",
+    "new-en-02-o1-f1-childcare",
+    "new-en-03-o0-f0-childcare",
+    "new-en-03-o0-f1-childcare",
+    "new-en-03-o1-f0-childcare",
+    "new-en-03-o1-f1-childcare",
+    "new-en-04-o0-f0-childcare",
+    "new-en-04-o0-f1-childcare",
+    "new-en-04-o1-f0-childcare",
+    "new-en-04-o1-f1-childcare",
+    "new-en-05-o0-f0-childcare",
+    "new-en-05-o0-f1-childcare",
+    "new-en-05-o1-f0-childcare",
+    "new-en-05-o1-f1-childcare"
+  ],
+  "selection_rule": "maximum mean signed donor transport on validation; exclude terminal block 79",
+  "ablation": "h - u * dot(h - train_center, u)",
+  "alpha": 1
+}

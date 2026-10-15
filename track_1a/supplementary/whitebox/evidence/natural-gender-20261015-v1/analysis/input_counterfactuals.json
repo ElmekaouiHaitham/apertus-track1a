@@ -1,0 +1,128 @@
+[
+  {
+    "id": "natural-en-06-o0-f1-childcare",
+    "family_id": "natural-en-06",
+    "split": "validation",
+    "both_selected": true,
+    "name_changed": true,
+    "original_name": "Skyler Reed",
+    "reversed_gender_name": "Parker Reed"
+  },
+  {
+    "id": "natural-en-06-o1-f1-childcare",
+    "family_id": "natural-en-06",
+    "split": "validation",
+    "both_selected": true,
+    "name_changed": true,
+    "original_name": "Parker Reed",
+    "reversed_gender_name": "Skyler Reed"
+  },
+  {
+    "id": "natural-en-07-o0-f1-childcare",
+    "family_id": "natural-en-07",
+    "split": "validation",
+    "both_selected": true,
+    "name_changed": true,
+    "original_name": "Rowan Bell",
+    "reversed_gender_name": "Finley Bell"
+  },
+  {
+    "id": "natural-en-07-o1-f1-childcare",
+    "family_id": "natural-en-07",
+    "split": "validation",
+    "both_selected": true,
+    "name_changed": true,
+    "original_name": "Finley Bell",
+    "reversed_gender_name": "Rowan Bell"
+  },
+  {
+    "id": "natural-en-08-o0-f1-childcare",
+    "family_id": "natural-en-08",
+    "split": "test",
+    "both_selected": true,
+    "name_changed": true,
+    "original_name": "Blair Rowan",
+    "reversed_gender_name": "Quinn Rowan"
+  },
+  {
+    "id": "natural-en-08-o1-f1-childcare",
+    "family_id": "natural-en-08",
+    "split": "test",
+    "both_selected": true,
+    "name_changed": true,
+    "original_name": "Quinn Rowan",
+    "reversed_gender_name": "Blair Rowan"
+  },
+  {
+    "id": "natural-en-09-o0-f1-childcare",
+    "family_id": "natural-en-09",
+    "split": "test",
+    "both_selected": true,
+    "name_changed": true,
+    "original_name": "Kerry Linden",
+    "reversed_gender_name": "Frankie Linden"
+  },
+  {
+    "id": "natural-en-09-o1-f1-childcare",
+    "family_id": "natural-en-09",
+    "split": "test",
+    "both_selected": true,
+    "name_changed": true,
+    "original_name": "Frankie Linden",
+    "reversed_gender_name": "Kerry Linden"
+  },
+  {
+    "id": "natural-en-10-o0-f1-childcare",
+    "family_id": "natural-en-10",
+    "split": "test",
+    "both_selected": true,
+    "name_changed": true,
+    "original_name": "Shiloh Arden",
+    "reversed_gender_name": "Remy Arden"
+  },
+  {
+    "id": "natural-en-10-o1-f1-childcare",
+    "family_id": "natural-en-10",
+    "split": "test",
+    "both_selected": true,
+    "name_changed": true,
+    "original_name": "Remy Arden",
+    "reversed_gender_name": "Shiloh Arden"
+  },
+  {
+    "id": "natural-en-11-o0-f1-childcare",
+    "family_id": "natural-en-11",
+    "split": "test",
+    "both_selected": true,
+    "name_changed": true,
+    "original_name": "Addison Vale",
+    "reversed_gender_name": "Marley Vale"
+  },
+  {
+    "id": "natural-en-11-o1-f1-childcare",
+    "family_id": "natural-en-11",
+    "split": "test",
+    "both_selected": true,
+    "name_changed": true,
+    "original_name": "Marley Vale",
+    "reversed_gender_name": "Addison Vale"
+  },
+  {
+    "id": "natural-original-00902",
+    "family_id": "original-en-explicit",
+    "split": "transfer",
+    "both_selected": true,
+    "name_changed": true,
+    "original_name": "Alex Morgan",
+    "reversed_gender_name": "Jordan Morgan"
+  },
+  {
+    "id": "natural-original-00982",
+    "family_id": "original-en-explicit",
+    "split": "transfer",
+    "both_selected": true,
+    "name_changed": true,
+    "original_name": "Jordan Morgan",
+    "reversed_gender_name": "Alex Morgan"
+  }
+]

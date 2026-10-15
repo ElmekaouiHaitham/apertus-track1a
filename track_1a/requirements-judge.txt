@@ -1,0 +1,5 @@
+# Optional heavy dependencies for direct Clef replay. Offline analysis does not need these.
+# Match the original CUDA 13 environment / appropriate PyTorch wheel source for your GPU.
+torch==2.11.0
+transformers==5.10.2
+huggingface_hub>=0.34

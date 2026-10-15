@@ -1,0 +1,1 @@
+The upstream findings.schema contains a literal newline inside the topic_area description, which makes it invalid JSON. We preserved the upstream bytes here and reserialized with JSON escaping. All schema values and validation rules are unchanged.

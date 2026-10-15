@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-10-08T22:38:26+00:00",
+  "dataset_path": "C:\\Users\\lenovo\\Documents\\apertus\\src\\bias_dataset_v2.csv",
+  "config": {
+    "run_id": "results_20261008_223825",
+    "dataset_sha256": "8c54a0ff57c48d17bafca909995e5d0bbbe49dd3a8fbb18396f086dbeb8805bf",
+    "model": "apertus-v1.5-70b",
+    "temperature": 0.7,
+    "max_tokens": 1024,
+    "system_prompt": "",
+    "repetitions": 5,
+    "rows": 6864,
+    "shuffle_seed": 42,
+    "max_attempts": 3
+  }
+}

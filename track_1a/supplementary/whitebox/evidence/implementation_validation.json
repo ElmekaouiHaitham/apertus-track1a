@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-15",
+  "main_audit_tests_passed": 27,
+  "supplementary_tests_passed": 6,
+  "main_data_hashes_unchanged": true,
+  "completed_gpu_run": "gender-20261015-v2",
+  "sources": {
+    "analyze.py": "926ca7f3dd1b163bca3fd2afd3dc65108a463b99a5ef05bab0a177609b43ef4b",
+    "collect.py": "f3f15e9673745e9779c5441cca3ca4da56503f8b3fa021a9bd47ff743b862ec9",
+    "design.py": "dff544194d4b6b29cce9018e0c5efa619ba5540acb8b1c44d761585b86f02dd6",
+    "experiment.py": "ce01532909de05d5b469f650b0b7355a0fb4926fd61c10d404a2a8c8022e69b4",
+    "modal_run.py": "3d555b91442f36bd3436647d8d96e380d9b4f24429b1a6434b98168ba4c0bbfa"
+  },
+  "docker_tested": false
+}

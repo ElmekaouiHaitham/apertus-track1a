@@ -1,0 +1,15 @@
+Apertus Choice Audit
+Copyright 2026 Haitham Elmekaoui
+
+Code is provided under Apache License 2.0; see LICENSE.
+The official HackApertus Track 1A README and findings schema originate from
+https://github.com/HackApertus/project-template and are retained for submission
+compatibility. The original schema bytes and the syntax-only repair are documented.
+
+Findings and the synthetic evidence dataset are provided under
+CDLA-Permissive-2.0; see findings/LICENSE and data/LICENSE.
+The report (technical_report.md and docs/report.tex / its PDF export) is
+CC-BY-4.0. Model weights are not included or redistributed. Apertus and Clef
+remain governed by their respective model licenses.
+
+The submission must remain private until the organizer's embargo ends.

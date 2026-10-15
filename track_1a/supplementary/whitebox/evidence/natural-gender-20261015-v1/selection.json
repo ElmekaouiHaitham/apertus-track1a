@@ -1,0 +1,33 @@
+{
+  "layer": 0,
+  "site": "cues",
+  "validation_restoration": 1.0,
+  "selected_on": "validation only",
+  "criterion": "Full-state donor-name restoration on validation only; ties prefer cues, then earlier block; exclude terminal answer-state copy",
+  "probe_training_ids": [
+    "natural-en-00-o0-f0-calibration",
+    "natural-en-00-o0-f1-calibration",
+    "natural-en-00-o1-f0-calibration",
+    "natural-en-00-o1-f1-calibration",
+    "natural-en-01-o0-f0-calibration",
+    "natural-en-01-o0-f1-calibration",
+    "natural-en-01-o1-f0-calibration",
+    "natural-en-01-o1-f1-calibration",
+    "natural-en-02-o0-f0-calibration",
+    "natural-en-02-o0-f1-calibration",
+    "natural-en-02-o1-f0-calibration",
+    "natural-en-02-o1-f1-calibration",
+    "natural-en-03-o0-f0-calibration",
+    "natural-en-03-o0-f1-calibration",
+    "natural-en-03-o1-f0-calibration",
+    "natural-en-03-o1-f1-calibration",
+    "natural-en-04-o0-f0-calibration",
+    "natural-en-04-o0-f1-calibration",
+    "natural-en-04-o1-f0-calibration",
+    "natural-en-04-o1-f1-calibration",
+    "natural-en-05-o0-f0-calibration",
+    "natural-en-05-o0-f1-calibration",
+    "natural-en-05-o1-f0-calibration",
+    "natural-en-05-o1-f1-calibration"
+  ]
+}

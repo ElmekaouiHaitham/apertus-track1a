@@ -1,0 +1,9 @@
+# Install only for supplementary inference; the existing offline package stays small.
+torch==2.9.0
+transformers[torch,vision,audio] @ git+https://github.com/swiss-ai/transformers.git@3797303dda74844e3d1f8977ff5518bb91f818b4
+accelerate==1.10.1
+# The official audio extra brings pyctcdecode, which requires NumPy < 2.
+numpy==1.26.4
+scikit-learn==1.7.2
+matplotlib==3.10.3
+safetensors>=0.6.2

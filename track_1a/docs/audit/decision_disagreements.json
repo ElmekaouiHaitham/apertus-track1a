@@ -1,0 +1,109 @@
+{
+  "interpretation": "Diagnostic comparison, not independent gold accuracy. Differences include missed selections/either answers and A/B identifier interpretation; adjudication has not changed source labels. H020 is a directly human-entered control-label disagreement.",
+  "random_agreement": {
+    "agreed": 138,
+    "n": 144
+  },
+  "controls_agreement": {
+    "agreed": 19,
+    "n": 24
+  },
+  "all_disagreements": [
+    {
+      "case_id": "H020",
+      "sampling_cohort": "controls",
+      "lang": "en",
+      "human_decision": "R",
+      "parser_decision": "T",
+      "agrees": false
+    },
+    {
+      "case_id": "H025",
+      "sampling_cohort": "stratified_random",
+      "lang": "fr",
+      "human_decision": "R",
+      "parser_decision": "U",
+      "agrees": false
+    },
+    {
+      "case_id": "H027",
+      "sampling_cohort": "stratified_random",
+      "lang": "ar",
+      "human_decision": "T",
+      "parser_decision": "U",
+      "agrees": false
+    },
+    {
+      "case_id": "H032",
+      "sampling_cohort": "controls",
+      "lang": "ar",
+      "human_decision": "T",
+      "parser_decision": "U",
+      "agrees": false
+    },
+    {
+      "case_id": "H064",
+      "sampling_cohort": "stratified_random",
+      "lang": "ar",
+      "human_decision": "T",
+      "parser_decision": "U",
+      "agrees": false
+    },
+    {
+      "case_id": "H084",
+      "sampling_cohort": "stratified_random",
+      "lang": "en",
+      "human_decision": "R",
+      "parser_decision": "N",
+      "agrees": false
+    },
+    {
+      "case_id": "H094",
+      "sampling_cohort": "controls",
+      "lang": "fr",
+      "human_decision": "T",
+      "parser_decision": "N",
+      "agrees": false
+    },
+    {
+      "case_id": "H119",
+      "sampling_cohort": "stratified_random",
+      "lang": "en",
+      "human_decision": "N",
+      "parser_decision": "U",
+      "agrees": false
+    },
+    {
+      "case_id": "H120",
+      "sampling_cohort": "stratified_random",
+      "lang": "ar",
+      "human_decision": "R",
+      "parser_decision": "U",
+      "agrees": false
+    },
+    {
+      "case_id": "H137",
+      "sampling_cohort": "controls",
+      "lang": "fr",
+      "human_decision": "N",
+      "parser_decision": "U",
+      "agrees": false
+    },
+    {
+      "case_id": "H152",
+      "sampling_cohort": "controls",
+      "lang": "fr",
+      "human_decision": "T",
+      "parser_decision": "R",
+      "agrees": false
+    },
+    {
+      "case_id": "H158",
+      "sampling_cohort": "targeted_disagreement",
+      "lang": "ar",
+      "human_decision": "R",
+      "parser_decision": "U",
+      "agrees": false
+    }
+  ]
+}

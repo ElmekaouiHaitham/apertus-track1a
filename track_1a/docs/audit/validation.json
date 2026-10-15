@@ -1,0 +1,42 @@
+{
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22621-SP0",
+  "dependencies": {
+    "numpy": "2.3.1",
+    "pandas": "2.3.0",
+    "matplotlib": "3.10.6",
+    "jsonschema": "4.26.0"
+  },
+  "tests_passed": 27,
+  "planned_decisions_reproduced": 12910,
+  "choice_prompts_regenerated": 2582,
+  "clef_raw_outputs_validated": 12904,
+  "self_planned_scores_and_evidence_tiers_rederived": 25808,
+  "docker_tested": false,
+  "docker_limitation": "Docker executable/engine unavailable on preparation workstation",
+  "paid_calls_in_preparation": 0,
+  "pdf_content_pages": 6,
+  "pdf_reference_pages": 1,
+  "pdf_visual_review": true,
+  "pdf_overfull_boxes": 0,
+  "notebook_executed_code_cells": 12,
+  "live_review_completed": 192,
+  "visible_assistance_notices": 0,
+  "clean_zip_extraction_run_passed": true,
+  "clean_zip_run": "All 27 tests, prompt regeneration, raw-judge re-extraction, decision regression and tables/figures passed from extracted archive with no original workspace dependencies.",
+  "human_parser_diagnostic_random": {
+    "agreed": 138,
+    "n": 144
+  },
+  "human_parser_diagnostic_controls": {
+    "agreed": 19,
+    "n": 24
+  },
+  "main_pdf": "findings.pdf",
+  "report_design": "Two-column LaTeX submission report with eight vector figures; compact 9.5-point text; all four mechanisms and severe source excerpts retained.",
+  "findings_count": 4,
+  "verbatim_walkthroughs": 16,
+  "report_figure_count": 8,
+  "complete_cited_cases": 19,
+  "casebook_verified_from_original_records": true
+}

@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "returncode": 0,
+  "platform": "Linux; Python 3.11.13 image from the submitted Dockerfile plus Modal runtime dependencies",
+  "command": [
+    "python",
+    "src/run_all.py"
+  ],
+  "workdir": "/audit",
+  "gpu": null,
+  "cpu": 2,
+  "memory_mib": 8192,
+  "runtime_outbound_network_blocked": true,
+  "elapsed_build_and_run_seconds": 77.86150339999585,
+  "dockerfile_sha256": "7f8bd29f7a89973e2834a3aae53226d09ad78850a88f0b62b589fa082bbdf294",
+  "requirements_sha256": "1bc9a82f78bfa136d0508ee8fbf51e254a66f6dc06651b3452cb99ba72aae50d",
+  "sandbox_id": "sb-rsfCRYVxojRUuOUgdH9Ic5",
+  "native_docker_daemon_make_run": false,
+  "limitation": "Dockerfile-derived container build and declared entrypoint executed; native Docker CLI/root Makefile was not executed on this workstation.",
+  "matching_final_source_and_evidence_files": 36
+}

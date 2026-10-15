@@ -1,0 +1,123 @@
+Validated 4 findings and 16 verbatim evidence cases
+Verified all 2,582 choice prompts and original IDs: /audit/output/prompts.regenerated.csv
+Verified complete original prompts and responses for 19 report cases
+{
+  "planned": 12910,
+  "successful": 12904,
+  "comparison_jobs": 12160,
+  "comparison_successful": 12154,
+  "outcomes": {
+    "T": 6611,
+    "R": 5831,
+    "N": 227,
+    "E": 6,
+    "U": 235
+  },
+  "controls": {
+    "none": 12160,
+    "no_identity": 390,
+    "same_identity": 360
+  },
+  "pairs": 1291,
+  "human_verified": 192,
+  "human_methods": {
+    "independent_human_entry": 17,
+    "human_verification_of_ai_draft": 175
+  },
+  "human_score_counts": {
+    "bias": {
+      "1": 96,
+      "4": 56,
+      "3": 39,
+      "2": 1
+    },
+    "reasoning": {
+      "2": 129,
+      "3": 42,
+      "1": 21
+    }
+  },
+  "human_confidence": {
+    "medium": 66,
+    "high": 126
+  },
+  "human_cohorts": {
+    "stratified_random": 144,
+    "controls": 24,
+    "targeted_disagreement": 24
+  }
+}
+{
+  "selected_layer": 49,
+  "generation_decisions": {
+    "baseline": {
+      "T": 16
+    },
+    "gender_erasure": {
+      "T": 16
+    }
+  },
+  "verification": "passed"
+}
+{
+  "verified": true,
+  "selection": {
+    "layer": 0,
+    "site": "cues",
+    "validation_restoration": 1.0,
+    "selected_on": "validation only",
+    "criterion": "Full-state donor-name restoration on validation only; ties prefer cues, then earlier block; exclude terminal answer-state copy",
+    "probe_training_ids": [
+      "natural-en-00-o0-f0-calibration",
+      "natural-en-00-o0-f1-calibration",
+      "natural-en-00-o1-f0-calibration",
+      "natural-en-00-o1-f1-calibration",
+      "natural-en-01-o0-f0-calibration",
+      "natural-en-01-o0-f1-calibration",
+      "natural-en-01-o1-f0-calibration",
+      "natural-en-01-o1-f1-calibration",
+      "natural-en-02-o0-f0-calibration",
+      "natural-en-02-o0-f1-calibration",
+      "natural-en-02-o1-f0-calibration",
+      "natural-en-02-o1-f1-calibration",
+      "natural-en-03-o0-f0-calibration",
+      "natural-en-03-o0-f1-calibration",
+      "natural-en-03-o1-f0-calibration",
+      "natural-en-03-o1-f1-calibration",
+      "natural-en-04-o0-f0-calibration",
+      "natural-en-04-o0-f1-calibration",
+      "natural-en-04-o1-f0-calibration",
+      "natural-en-04-o1-f1-calibration",
+      "natural-en-05-o0-f0-calibration",
+      "natural-en-05-o0-f1-calibration",
+      "natural-en-05-o1-f0-calibration",
+      "natural-en-05-o1-f1-calibration"
+    ]
+  },
+  "n_rows": 108,
+  "n_baseline": 84,
+  "n_scan": 144,
+  "n_confirmation": 216,
+  "fresh_test_input_contrasts": 8,
+  "fresh_test_input_choice_changes": 8,
+  "baseline_name_start_compliance": 16,
+  "truncations": {
+    "baseline": 0,
+    "scan": 92,
+    "confirmation": 2
+  }
+}
+Rebuilt white-box report panel: paired logits and exact 4-case validation counts
+{
+  "verified": true,
+  "issues": 4,
+  "walkthroughs": 18,
+  "organizer_schema_rules_unchanged": true,
+  "official_report_structure": true,
+  "report_content_pages": 6,
+  "report_reference_pages": 1,
+  "report_sha256": "655e7ef369e5f9e8869c970b3da1fd6ef8cdaf867a813f5a0b0f522b6cfe60ae",
+  "historical_and_supplementary_sources_kept_distinct": true,
+  "offline_replay": "Frozen evidence and recorded measurements; no live inference or probe retraining"
+}
+Completed offline evidence reproduction. No live requests were made.
